@@ -1,0 +1,17 @@
+.mypy_cache/
+venv/
+data_lake/
+mlruns/
+reports/
+
+.env
+mlflow_env/
+logs/
+
+# Airflow
+airflow/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

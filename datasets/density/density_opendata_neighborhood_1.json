@@ -1,0 +1,5840 @@
+{
+    "_id": 1,
+    "neigh_name": "el Raval",
+    "district_id": 1,
+    "district_name": "Ciutat Vella",
+    "info": [
+        {
+            "year": 2010,
+            "population": 47251,
+            "density(inh/ha)": 949,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 47700,
+            "density(inh/ha)": 958,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 49027,
+            "density(inh/ha)": 984,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 48800,
+            "density(inh/ha)": 983,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 47489,
+            "density(inh/ha)": 956,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 47142,
+            "density(inh/ha)": 949,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 47129,
+            "density(inh/ha)": 948,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 47608,
+            "density(inh/ha)": 959,
+            "net_density(inh/ha)": "49.7"
+        },
+        {
+            "year": 2018,
+            "population": 46948,
+            "density(inh/ha)": 946,
+            "net_density(inh/ha)": "49.6"
+        },
+        {
+            "year": 2019,
+            "population": 47353,
+            "density(inh/ha)": 955,
+            "net_density(inh/ha)": "49.6"
+        },
+        {
+            "year": 2020,
+            "population": 48038,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "49.6"
+        },
+        {
+            "year": 2021,
+            "population": 47228,
+            "density(inh/ha)": 952,
+            "net_density(inh/ha)": "49.6"
+        }
+    ]
+}
+{
+    "_id": 2,
+    "neigh_name": "el Barri Gòtic",
+    "district_id": 1,
+    "district_name": "Ciutat Vella",
+    "info": [
+        {
+            "year": 2010,
+            "population": 18530,
+            "density(inh/ha)": 543,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 17687,
+            "density(inh/ha)": 518,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 16908,
+            "density(inh/ha)": 495,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 16267,
+            "density(inh/ha)": 477,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15734,
+            "density(inh/ha)": 461,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15484,
+            "density(inh/ha)": 454,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15614,
+            "density(inh/ha)": 457,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 16062,
+            "density(inh/ha)": 471,
+            "net_density(inh/ha)": "34.1"
+        },
+        {
+            "year": 2018,
+            "population": 16731,
+            "density(inh/ha)": 492,
+            "net_density(inh/ha)": "34.0"
+        },
+        {
+            "year": 2019,
+            "population": 18629,
+            "density(inh/ha)": 546,
+            "net_density(inh/ha)": "34.1"
+        },
+        {
+            "year": 2020,
+            "population": 21601,
+            "density(inh/ha)": 633,
+            "net_density(inh/ha)": "34.1"
+        },
+        {
+            "year": 2021,
+            "population": 21827,
+            "density(inh/ha)": 639,
+            "net_density(inh/ha)": "34.1"
+        }
+    ]
+}
+{
+    "_id": 3,
+    "neigh_name": "la Barceloneta",
+    "district_id": 1,
+    "district_name": "Ciutat Vella",
+    "info": [
+        {
+            "year": 2010,
+            "population": 16099,
+            "density(inh/ha)": 1235,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15766,
+            "density(inh/ha)": 1210,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 15729,
+            "density(inh/ha)": 1202,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15503,
+            "density(inh/ha)": 1185,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15104,
+            "density(inh/ha)": 1155,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15032,
+            "density(inh/ha)": 1149,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15021,
+            "density(inh/ha)": 1113,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 14996,
+            "density(inh/ha)": 1107,
+            "net_density(inh/ha)": "13.5"
+        },
+        {
+            "year": 2018,
+            "population": 14739,
+            "density(inh/ha)": 1088,
+            "net_density(inh/ha)": "13.5"
+        },
+        {
+            "year": 2019,
+            "population": 14857,
+            "density(inh/ha)": 1097,
+            "net_density(inh/ha)": "13.5"
+        },
+        {
+            "year": 2020,
+            "population": 15059,
+            "density(inh/ha)": 1112,
+            "net_density(inh/ha)": "13.5"
+        },
+        {
+            "year": 2021,
+            "population": 14643,
+            "density(inh/ha)": 1081,
+            "net_density(inh/ha)": "13.5"
+        }
+    ]
+}
+{
+    "_id": 4,
+    "neigh_name": "Sant Pere, Santa Caterina i la Ribera",
+    "district_id": 1,
+    "district_name": "Ciutat Vella",
+    "info": [
+        {
+            "year": 2010,
+            "population": 22627,
+            "density(inh/ha)": 701,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 22410,
+            "density(inh/ha)": 694,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 22778,
+            "density(inh/ha)": 705,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 22769,
+            "density(inh/ha)": 705,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 22358,
+            "density(inh/ha)": 692,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 22457,
+            "density(inh/ha)": 695,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 22306,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 22721,
+            "density(inh/ha)": 700,
+            "net_density(inh/ha)": "32.5"
+        },
+        {
+            "year": 2018,
+            "population": 22296,
+            "density(inh/ha)": 686,
+            "net_density(inh/ha)": "32.5"
+        },
+        {
+            "year": 2019,
+            "population": 22590,
+            "density(inh/ha)": 697,
+            "net_density(inh/ha)": "32.4"
+        },
+        {
+            "year": 2020,
+            "population": 23160,
+            "density(inh/ha)": 715,
+            "net_density(inh/ha)": "32.4"
+        },
+        {
+            "year": 2021,
+            "population": 22131,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "32.4"
+        }
+    ]
+}
+{
+    "_id": 5,
+    "neigh_name": "el Fort Pienc",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 32630,
+            "density(inh/ha)": 975,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 32384,
+            "density(inh/ha)": 970,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 32296,
+            "density(inh/ha)": 967,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 31738,
+            "density(inh/ha)": 950,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 31494,
+            "density(inh/ha)": 943,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 31543,
+            "density(inh/ha)": 944,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 31653,
+            "density(inh/ha)": 948,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 32016,
+            "density(inh/ha)": 959,
+            "net_density(inh/ha)": "33.4"
+        },
+        {
+            "year": 2018,
+            "population": 31922,
+            "density(inh/ha)": 953,
+            "net_density(inh/ha)": "33.5"
+        },
+        {
+            "year": 2019,
+            "population": 32349,
+            "density(inh/ha)": 962,
+            "net_density(inh/ha)": "33.6"
+        },
+        {
+            "year": 2020,
+            "population": 33416,
+            "density(inh/ha)": 994,
+            "net_density(inh/ha)": "33.6"
+        },
+        {
+            "year": 2021,
+            "population": 31262,
+            "density(inh/ha)": 930,
+            "net_density(inh/ha)": "33.6"
+        }
+    ]
+}
+{
+    "_id": 6,
+    "neigh_name": "la Sagrada Família",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 52167,
+            "density(inh/ha)": 1007,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 52009,
+            "density(inh/ha)": 1010,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 52109,
+            "density(inh/ha)": 1012,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 51806,
+            "density(inh/ha)": 1006,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 51299,
+            "density(inh/ha)": 996,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 51097,
+            "density(inh/ha)": 995,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 51322,
+            "density(inh/ha)": 1002,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 51539,
+            "density(inh/ha)": 1006,
+            "net_density(inh/ha)": "51.2"
+        },
+        {
+            "year": 2018,
+            "population": 51335,
+            "density(inh/ha)": 1002,
+            "net_density(inh/ha)": "51.2"
+        },
+        {
+            "year": 2019,
+            "population": 51385,
+            "density(inh/ha)": 1003,
+            "net_density(inh/ha)": "51.2"
+        },
+        {
+            "year": 2020,
+            "population": 52187,
+            "density(inh/ha)": 1024,
+            "net_density(inh/ha)": "51.0"
+        },
+        {
+            "year": 2021,
+            "population": 51319,
+            "density(inh/ha)": 1007,
+            "net_density(inh/ha)": "51.0"
+        }
+    ]
+}
+{
+    "_id": 7,
+    "neigh_name": "la Dreta de l'Eixample",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 43095,
+            "density(inh/ha)": 378,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 42910,
+            "density(inh/ha)": 377,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 43355,
+            "density(inh/ha)": 381,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 43384,
+            "density(inh/ha)": 381,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 43340,
+            "density(inh/ha)": 381,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 43556,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 43644,
+            "density(inh/ha)": 383,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 44052,
+            "density(inh/ha)": 387,
+            "net_density(inh/ha)": "113.9"
+        },
+        {
+            "year": 2018,
+            "population": 43449,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "113.9"
+        },
+        {
+            "year": 2019,
+            "population": 43515,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "113.9"
+        },
+        {
+            "year": 2020,
+            "population": 44200,
+            "density(inh/ha)": 388,
+            "net_density(inh/ha)": "113.9"
+        },
+        {
+            "year": 2021,
+            "population": 44675,
+            "density(inh/ha)": 392,
+            "net_density(inh/ha)": "113.9"
+        }
+    ]
+}
+{
+    "_id": 8,
+    "neigh_name": "l'Antiga Esquerra de l'Eixample",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 41747,
+            "density(inh/ha)": 624,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 41466,
+            "density(inh/ha)": 619,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 41785,
+            "density(inh/ha)": 624,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 41773,
+            "density(inh/ha)": 624,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 41717,
+            "density(inh/ha)": 623,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 41664,
+            "density(inh/ha)": 622,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 41854,
+            "density(inh/ha)": 625,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 42284,
+            "density(inh/ha)": 631,
+            "net_density(inh/ha)": "67.0"
+        },
+        {
+            "year": 2018,
+            "population": 42189,
+            "density(inh/ha)": 630,
+            "net_density(inh/ha)": "66.9"
+        },
+        {
+            "year": 2019,
+            "population": 42393,
+            "density(inh/ha)": 633,
+            "net_density(inh/ha)": "66.9"
+        },
+        {
+            "year": 2020,
+            "population": 43049,
+            "density(inh/ha)": 643,
+            "net_density(inh/ha)": "66.9"
+        },
+        {
+            "year": 2021,
+            "population": 41990,
+            "density(inh/ha)": 627,
+            "net_density(inh/ha)": "66.9"
+        }
+    ]
+}
+{
+    "_id": 9,
+    "neigh_name": "la Nova Esquerra de l'Eixample",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 58013,
+            "density(inh/ha)": 885,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 57706,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 57911,
+            "density(inh/ha)": 884,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 57819,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 57619,
+            "density(inh/ha)": 876,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 57665,
+            "density(inh/ha)": 876,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 57648,
+            "density(inh/ha)": 883,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 58180,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "65.3"
+        },
+        {
+            "year": 2018,
+            "population": 57889,
+            "density(inh/ha)": 889,
+            "net_density(inh/ha)": "65.2"
+        },
+        {
+            "year": 2019,
+            "population": 58032,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "65.2"
+        },
+        {
+            "year": 2020,
+            "population": 58579,
+            "density(inh/ha)": 899,
+            "net_density(inh/ha)": "65.2"
+        },
+        {
+            "year": 2021,
+            "population": 57054,
+            "density(inh/ha)": 876,
+            "net_density(inh/ha)": "65.2"
+        }
+    ]
+}
+{
+    "_id": 10,
+    "neigh_name": "Sant Antoni",
+    "district_id": 2,
+    "district_name": "Eixample",
+    "info": [
+        {
+            "year": 2010,
+            "population": 38133,
+            "density(inh/ha)": 920,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 38002,
+            "density(inh/ha)": 916,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 38372,
+            "density(inh/ha)": 925,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 38260,
+            "density(inh/ha)": 923,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 38096,
+            "density(inh/ha)": 919,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 38033,
+            "density(inh/ha)": 917,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 38184,
+            "density(inh/ha)": 924,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 38345,
+            "density(inh/ha)": 928,
+            "net_density(inh/ha)": "41.3"
+        },
+        {
+            "year": 2018,
+            "population": 38090,
+            "density(inh/ha)": 924,
+            "net_density(inh/ha)": "41.2"
+        },
+        {
+            "year": 2019,
+            "population": 38236,
+            "density(inh/ha)": 925,
+            "net_density(inh/ha)": "41.3"
+        },
+        {
+            "year": 2020,
+            "population": 38900,
+            "density(inh/ha)": 941,
+            "net_density(inh/ha)": "41.3"
+        },
+        {
+            "year": 2021,
+            "population": 38053,
+            "density(inh/ha)": 921,
+            "net_density(inh/ha)": "41.3"
+        }
+    ]
+}
+{
+    "_id": 11,
+    "neigh_name": "el Poble Sec",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 40340,
+            "density(inh/ha)": 1123,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 40547,
+            "density(inh/ha)": 1129,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 41258,
+            "density(inh/ha)": 1149,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 40984,
+            "density(inh/ha)": 1141,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 40278,
+            "density(inh/ha)": 1121,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 40208,
+            "density(inh/ha)": 1016,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 40055,
+            "density(inh/ha)": 1039,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 40228,
+            "density(inh/ha)": 1043,
+            "net_density(inh/ha)": "38.6"
+        },
+        {
+            "year": 2018,
+            "population": 39520,
+            "density(inh/ha)": 1045,
+            "net_density(inh/ha)": "37.8"
+        },
+        {
+            "year": 2019,
+            "population": 39995,
+            "density(inh/ha)": 1054,
+            "net_density(inh/ha)": "38.0"
+        },
+        {
+            "year": 2020,
+            "population": 40139,
+            "density(inh/ha)": 1058,
+            "net_density(inh/ha)": "38.0"
+        },
+        {
+            "year": 2021,
+            "population": 39400,
+            "density(inh/ha)": 1033,
+            "net_density(inh/ha)": "38.1"
+        }
+    ]
+}
+{
+    "_id": 12,
+    "neigh_name": "la Marina del Prat Vermell",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 1139,
+            "density(inh/ha)": 30,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 1124,
+            "density(inh/ha)": 31,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 1153,
+            "density(inh/ha)": 31,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 1172,
+            "density(inh/ha)": 32,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 1144,
+            "density(inh/ha)": 31,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 1125,
+            "density(inh/ha)": 31,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 1143,
+            "density(inh/ha)": 32,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 1149,
+            "density(inh/ha)": 32,
+            "net_density(inh/ha)": "35.9"
+        },
+        {
+            "year": 2018,
+            "population": 1158,
+            "density(inh/ha)": 32,
+            "net_density(inh/ha)": "35.9"
+        },
+        {
+            "year": 2019,
+            "population": 1196,
+            "density(inh/ha)": 33,
+            "net_density(inh/ha)": "35.9"
+        },
+        {
+            "year": 2020,
+            "population": 1226,
+            "density(inh/ha)": 34,
+            "net_density(inh/ha)": "35.9"
+        },
+        {
+            "year": 2021,
+            "population": 1350,
+            "density(inh/ha)": 38,
+            "net_density(inh/ha)": "35.5"
+        }
+    ]
+}
+{
+    "_id": 13,
+    "neigh_name": "la Marina de Port",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 30101,
+            "density(inh/ha)": 747,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 30243,
+            "density(inh/ha)": 752,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 30458,
+            "density(inh/ha)": 779,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 30271,
+            "density(inh/ha)": 774,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 30047,
+            "density(inh/ha)": 768,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 30232,
+            "density(inh/ha)": 773,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 30385,
+            "density(inh/ha)": 774,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 30584,
+            "density(inh/ha)": 777,
+            "net_density(inh/ha)": "39.4"
+        },
+        {
+            "year": 2018,
+            "population": 30660,
+            "density(inh/ha)": 787,
+            "net_density(inh/ha)": "39.0"
+        },
+        {
+            "year": 2019,
+            "population": 30958,
+            "density(inh/ha)": 795,
+            "net_density(inh/ha)": "38.9"
+        },
+        {
+            "year": 2020,
+            "population": 31326,
+            "density(inh/ha)": 804,
+            "net_density(inh/ha)": "38.9"
+        },
+        {
+            "year": 2021,
+            "population": 30741,
+            "density(inh/ha)": 789,
+            "net_density(inh/ha)": "38.9"
+        }
+    ]
+}
+{
+    "_id": 14,
+    "neigh_name": "la Font de la Guatlla",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 10281,
+            "density(inh/ha)": 901,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 10223,
+            "density(inh/ha)": 896,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 10285,
+            "density(inh/ha)": 902,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 10313,
+            "density(inh/ha)": 904,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 10309,
+            "density(inh/ha)": 904,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 10366,
+            "density(inh/ha)": 909,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 10302,
+            "density(inh/ha)": 903,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 10401,
+            "density(inh/ha)": 912,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2018,
+            "population": 10242,
+            "density(inh/ha)": 898,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2019,
+            "population": 10265,
+            "density(inh/ha)": 900,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2020,
+            "population": 10354,
+            "density(inh/ha)": 897,
+            "net_density(inh/ha)": "11.5"
+        },
+        {
+            "year": 2021,
+            "population": 10084,
+            "density(inh/ha)": 873,
+            "net_density(inh/ha)": "11.5"
+        }
+    ]
+}
+{
+    "_id": 15,
+    "neigh_name": "Hostafrancs",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 15939,
+            "density(inh/ha)": 716,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15845,
+            "density(inh/ha)": 708,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 16044,
+            "density(inh/ha)": 716,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15960,
+            "density(inh/ha)": 713,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15666,
+            "density(inh/ha)": 700,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15747,
+            "density(inh/ha)": 703,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15889,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15904,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "22.4"
+        },
+        {
+            "year": 2018,
+            "population": 15885,
+            "density(inh/ha)": 718,
+            "net_density(inh/ha)": "22.1"
+        },
+        {
+            "year": 2019,
+            "population": 16014,
+            "density(inh/ha)": 724,
+            "net_density(inh/ha)": "22.1"
+        },
+        {
+            "year": 2020,
+            "population": 16188,
+            "density(inh/ha)": 733,
+            "net_density(inh/ha)": "22.1"
+        },
+        {
+            "year": 2021,
+            "population": 15842,
+            "density(inh/ha)": 717,
+            "net_density(inh/ha)": "22.1"
+        }
+    ]
+}
+{
+    "_id": 16,
+    "neigh_name": "la Bordeta",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 18646,
+            "density(inh/ha)": 902,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 18499,
+            "density(inh/ha)": 895,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 18614,
+            "density(inh/ha)": 902,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 18577,
+            "density(inh/ha)": 900,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 18398,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 18378,
+            "density(inh/ha)": 890,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 18512,
+            "density(inh/ha)": 897,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 18530,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "20.8"
+        },
+        {
+            "year": 2018,
+            "population": 18755,
+            "density(inh/ha)": 905,
+            "net_density(inh/ha)": "20.7"
+        },
+        {
+            "year": 2019,
+            "population": 19346,
+            "density(inh/ha)": 933,
+            "net_density(inh/ha)": "20.7"
+        },
+        {
+            "year": 2020,
+            "population": 19553,
+            "density(inh/ha)": 943,
+            "net_density(inh/ha)": "20.7"
+        },
+        {
+            "year": 2021,
+            "population": 19292,
+            "density(inh/ha)": 928,
+            "net_density(inh/ha)": "20.8"
+        }
+    ]
+}
+{
+    "_id": 17,
+    "neigh_name": "Sants - Badal",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 24343,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 24360,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 24611,
+            "density(inh/ha)": 979,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 24351,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 24128,
+            "density(inh/ha)": 960,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 24014,
+            "density(inh/ha)": 956,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 23906,
+            "density(inh/ha)": 951,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 23987,
+            "density(inh/ha)": 955,
+            "net_density(inh/ha)": "25.1"
+        },
+        {
+            "year": 2018,
+            "population": 23921,
+            "density(inh/ha)": 954,
+            "net_density(inh/ha)": "25.1"
+        },
+        {
+            "year": 2019,
+            "population": 24312,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "25.1"
+        },
+        {
+            "year": 2020,
+            "population": 24919,
+            "density(inh/ha)": 993,
+            "net_density(inh/ha)": "25.1"
+        },
+        {
+            "year": 2021,
+            "population": 24576,
+            "density(inh/ha)": 980,
+            "net_density(inh/ha)": "25.1"
+        }
+    ]
+}
+{
+    "_id": 18,
+    "neigh_name": "Sants",
+    "district_id": 3,
+    "district_name": "Sants-Montjuïc",
+    "info": [
+        {
+            "year": 2010,
+            "population": 42125,
+            "density(inh/ha)": 759,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 41976,
+            "density(inh/ha)": 756,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 41649,
+            "density(inh/ha)": 750,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 41057,
+            "density(inh/ha)": 739,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 40854,
+            "density(inh/ha)": 735,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 40687,
+            "density(inh/ha)": 732,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 40785,
+            "density(inh/ha)": 734,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 41127,
+            "density(inh/ha)": 740,
+            "net_density(inh/ha)": "55.6"
+        },
+        {
+            "year": 2018,
+            "population": 41162,
+            "density(inh/ha)": 693,
+            "net_density(inh/ha)": "59.4"
+        },
+        {
+            "year": 2019,
+            "population": 42005,
+            "density(inh/ha)": 708,
+            "net_density(inh/ha)": "59.4"
+        },
+        {
+            "year": 2020,
+            "population": 43720,
+            "density(inh/ha)": 736,
+            "net_density(inh/ha)": "59.4"
+        },
+        {
+            "year": 2021,
+            "population": 43082,
+            "density(inh/ha)": 726,
+            "net_density(inh/ha)": "59.4"
+        }
+    ]
+}
+{
+    "_id": 19,
+    "neigh_name": "les Corts",
+    "district_id": 4,
+    "district_name": "Les Corts",
+    "info": [
+        {
+            "year": 2010,
+            "population": 47435,
+            "density(inh/ha)": 730,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 47173,
+            "density(inh/ha)": 726,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 46875,
+            "density(inh/ha)": 721,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 46183,
+            "density(inh/ha)": 712,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 45984,
+            "density(inh/ha)": 709,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 46000,
+            "density(inh/ha)": 705,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 45932,
+            "density(inh/ha)": 704,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 46009,
+            "density(inh/ha)": 705,
+            "net_density(inh/ha)": "65.3"
+        },
+        {
+            "year": 2018,
+            "population": 45939,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "64.7"
+        },
+        {
+            "year": 2019,
+            "population": 46274,
+            "density(inh/ha)": 715,
+            "net_density(inh/ha)": "64.7"
+        },
+        {
+            "year": 2020,
+            "population": 46687,
+            "density(inh/ha)": 721,
+            "net_density(inh/ha)": "64.7"
+        },
+        {
+            "year": 2021,
+            "population": 45422,
+            "density(inh/ha)": 702,
+            "net_density(inh/ha)": "64.7"
+        }
+    ]
+}
+{
+    "_id": 20,
+    "neigh_name": "la Maternitat i Sant Ramon",
+    "district_id": 4,
+    "district_name": "Les Corts",
+    "info": [
+        {
+            "year": 2010,
+            "population": 23783,
+            "density(inh/ha)": 718,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 23622,
+            "density(inh/ha)": 723,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 23780,
+            "density(inh/ha)": 728,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 23667,
+            "density(inh/ha)": 724,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 23564,
+            "density(inh/ha)": 721,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 23817,
+            "density(inh/ha)": 729,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 23848,
+            "density(inh/ha)": 731,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 23948,
+            "density(inh/ha)": 734,
+            "net_density(inh/ha)": "32.6"
+        },
+        {
+            "year": 2018,
+            "population": 23856,
+            "density(inh/ha)": 749,
+            "net_density(inh/ha)": "31.8"
+        },
+        {
+            "year": 2019,
+            "population": 23836,
+            "density(inh/ha)": 757,
+            "net_density(inh/ha)": "31.5"
+        },
+        {
+            "year": 2020,
+            "population": 23940,
+            "density(inh/ha)": 760,
+            "net_density(inh/ha)": "31.5"
+        },
+        {
+            "year": 2021,
+            "population": 23574,
+            "density(inh/ha)": 741,
+            "net_density(inh/ha)": "31.8"
+        }
+    ]
+}
+{
+    "_id": 21,
+    "neigh_name": "Pedralbes",
+    "district_id": 4,
+    "district_name": "Les Corts",
+    "info": [
+        {
+            "year": 2010,
+            "population": 11665,
+            "density(inh/ha)": 144,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 11641,
+            "density(inh/ha)": 143,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 11765,
+            "density(inh/ha)": 144,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 11790,
+            "density(inh/ha)": 145,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 11652,
+            "density(inh/ha)": 143,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 11713,
+            "density(inh/ha)": 143,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 11862,
+            "density(inh/ha)": 144,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 12076,
+            "density(inh/ha)": 147,
+            "net_density(inh/ha)": "82.3"
+        },
+        {
+            "year": 2018,
+            "population": 11960,
+            "density(inh/ha)": 146,
+            "net_density(inh/ha)": "81.7"
+        },
+        {
+            "year": 2019,
+            "population": 11864,
+            "density(inh/ha)": 145,
+            "net_density(inh/ha)": "81.7"
+        },
+        {
+            "year": 2020,
+            "population": 11905,
+            "density(inh/ha)": 146,
+            "net_density(inh/ha)": "81.7"
+        },
+        {
+            "year": 2021,
+            "population": 11581,
+            "density(inh/ha)": 142,
+            "net_density(inh/ha)": "81.7"
+        }
+    ]
+}
+{
+    "_id": 22,
+    "neigh_name": "Vallvidrera, el Tibidabo i les Planes",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 4274,
+            "density(inh/ha)": 47,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 4299,
+            "density(inh/ha)": 48,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 4410,
+            "density(inh/ha)": 49,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 4437,
+            "density(inh/ha)": 50,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 4514,
+            "density(inh/ha)": 50,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 4602,
+            "density(inh/ha)": 51,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 4632,
+            "density(inh/ha)": 52,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 4670,
+            "density(inh/ha)": 52,
+            "net_density(inh/ha)": "89.5"
+        },
+        {
+            "year": 2018,
+            "population": 4698,
+            "density(inh/ha)": 19,
+            "net_density(inh/ha)": "242.4"
+        },
+        {
+            "year": 2019,
+            "population": 4698,
+            "density(inh/ha)": 19,
+            "net_density(inh/ha)": "242.4"
+        },
+        {
+            "year": 2020,
+            "population": 4699,
+            "density(inh/ha)": 19,
+            "net_density(inh/ha)": "242.0"
+        },
+        {
+            "year": 2021,
+            "population": 4697,
+            "density(inh/ha)": 19,
+            "net_density(inh/ha)": "242.0"
+        }
+    ]
+}
+{
+    "_id": 23,
+    "neigh_name": "Sarrià",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 23757,
+            "density(inh/ha)": 253,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 23946,
+            "density(inh/ha)": 255,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 24306,
+            "density(inh/ha)": 259,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 24450,
+            "density(inh/ha)": 260,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 24523,
+            "density(inh/ha)": 261,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 24641,
+            "density(inh/ha)": 261,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 24799,
+            "density(inh/ha)": 258,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 25032,
+            "density(inh/ha)": 260,
+            "net_density(inh/ha)": "96.2"
+        },
+        {
+            "year": 2018,
+            "population": 24975,
+            "density(inh/ha)": 260,
+            "net_density(inh/ha)": "95.9"
+        },
+        {
+            "year": 2019,
+            "population": 24901,
+            "density(inh/ha)": 261,
+            "net_density(inh/ha)": "95.4"
+        },
+        {
+            "year": 2020,
+            "population": 25171,
+            "density(inh/ha)": 264,
+            "net_density(inh/ha)": "95.4"
+        },
+        {
+            "year": 2021,
+            "population": 24405,
+            "density(inh/ha)": 256,
+            "net_density(inh/ha)": "95.4"
+        }
+    ]
+}
+{
+    "_id": 24,
+    "neigh_name": "les Tres Torres",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 15741,
+            "density(inh/ha)": 370,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15770,
+            "density(inh/ha)": 371,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 15936,
+            "density(inh/ha)": 375,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15984,
+            "density(inh/ha)": 376,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 16161,
+            "density(inh/ha)": 380,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 16498,
+            "density(inh/ha)": 388,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 16473,
+            "density(inh/ha)": 387,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 16667,
+            "density(inh/ha)": 391,
+            "net_density(inh/ha)": "42.6"
+        },
+        {
+            "year": 2018,
+            "population": 16656,
+            "density(inh/ha)": 392,
+            "net_density(inh/ha)": "42.5"
+        },
+        {
+            "year": 2019,
+            "population": 16591,
+            "density(inh/ha)": 391,
+            "net_density(inh/ha)": "42.5"
+        },
+        {
+            "year": 2020,
+            "population": 16622,
+            "density(inh/ha)": 391,
+            "net_density(inh/ha)": "42.5"
+        },
+        {
+            "year": 2021,
+            "population": 16228,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "42.5"
+        }
+    ]
+}
+{
+    "_id": 25,
+    "neigh_name": "Sant Gervasi - la Bonanova",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 24306,
+            "density(inh/ha)": 295,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 24330,
+            "density(inh/ha)": 295,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 24553,
+            "density(inh/ha)": 299,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 24607,
+            "density(inh/ha)": 300,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 24926,
+            "density(inh/ha)": 304,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 25246,
+            "density(inh/ha)": 308,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 25665,
+            "density(inh/ha)": 313,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 25774,
+            "density(inh/ha)": 314,
+            "net_density(inh/ha)": "82.1"
+        },
+        {
+            "year": 2018,
+            "population": 25695,
+            "density(inh/ha)": 313,
+            "net_density(inh/ha)": "82.1"
+        },
+        {
+            "year": 2019,
+            "population": 25919,
+            "density(inh/ha)": 316,
+            "net_density(inh/ha)": "82.1"
+        },
+        {
+            "year": 2020,
+            "population": 26193,
+            "density(inh/ha)": 319,
+            "net_density(inh/ha)": "82.1"
+        },
+        {
+            "year": 2021,
+            "population": 25659,
+            "density(inh/ha)": 313,
+            "net_density(inh/ha)": "82.1"
+        }
+    ]
+}
+{
+    "_id": 26,
+    "neigh_name": "Sant Gervasi - Galvany",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 46305,
+            "density(inh/ha)": 487,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 46217,
+            "density(inh/ha)": 484,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 46411,
+            "density(inh/ha)": 486,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 46486,
+            "density(inh/ha)": 487,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 46466,
+            "density(inh/ha)": 487,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 46708,
+            "density(inh/ha)": 489,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 47089,
+            "density(inh/ha)": 493,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 47666,
+            "density(inh/ha)": 499,
+            "net_density(inh/ha)": "95.5"
+        },
+        {
+            "year": 2018,
+            "population": 47594,
+            "density(inh/ha)": 499,
+            "net_density(inh/ha)": "95.4"
+        },
+        {
+            "year": 2019,
+            "population": 47588,
+            "density(inh/ha)": 499,
+            "net_density(inh/ha)": "95.4"
+        },
+        {
+            "year": 2020,
+            "population": 47909,
+            "density(inh/ha)": 502,
+            "net_density(inh/ha)": "95.4"
+        },
+        {
+            "year": 2021,
+            "population": 46816,
+            "density(inh/ha)": 491,
+            "net_density(inh/ha)": "95.4"
+        }
+    ]
+}
+{
+    "_id": 27,
+    "neigh_name": "el Putxet i el Farró",
+    "district_id": 5,
+    "district_name": "Sarrià-Sant Gervasi",
+    "info": [
+        {
+            "year": 2010,
+            "population": 30154,
+            "density(inh/ha)": 569,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 29992,
+            "density(inh/ha)": 564,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 29775,
+            "density(inh/ha)": 560,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 29302,
+            "density(inh/ha)": 551,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 29171,
+            "density(inh/ha)": 548,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 29139,
+            "density(inh/ha)": 547,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 29368,
+            "density(inh/ha)": 552,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 29470,
+            "density(inh/ha)": 555,
+            "net_density(inh/ha)": "53.1"
+        },
+        {
+            "year": 2018,
+            "population": 29494,
+            "density(inh/ha)": 555,
+            "net_density(inh/ha)": "53.1"
+        },
+        {
+            "year": 2019,
+            "population": 29563,
+            "density(inh/ha)": 557,
+            "net_density(inh/ha)": "53.1"
+        },
+        {
+            "year": 2020,
+            "population": 30294,
+            "density(inh/ha)": 570,
+            "net_density(inh/ha)": "53.1"
+        },
+        {
+            "year": 2021,
+            "population": 29629,
+            "density(inh/ha)": 558,
+            "net_density(inh/ha)": "53.1"
+        }
+    ]
+}
+{
+    "_id": 28,
+    "neigh_name": "Vallcarca i els Penitents",
+    "district_id": 6,
+    "district_name": "Gràcia",
+    "info": [
+        {
+            "year": 2010,
+            "population": 15459,
+            "density(inh/ha)": 339,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15417,
+            "density(inh/ha)": 328,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 15499,
+            "density(inh/ha)": 330,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15453,
+            "density(inh/ha)": 329,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15413,
+            "density(inh/ha)": 328,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15492,
+            "density(inh/ha)": 331,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15591,
+            "density(inh/ha)": 333,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15759,
+            "density(inh/ha)": 335,
+            "net_density(inh/ha)": "47.0"
+        },
+        {
+            "year": 2018,
+            "population": 15887,
+            "density(inh/ha)": 337,
+            "net_density(inh/ha)": "47.2"
+        },
+        {
+            "year": 2019,
+            "population": 15979,
+            "density(inh/ha)": 331,
+            "net_density(inh/ha)": "48.2"
+        },
+        {
+            "year": 2020,
+            "population": 16323,
+            "density(inh/ha)": 339,
+            "net_density(inh/ha)": "48.2"
+        },
+        {
+            "year": 2021,
+            "population": 16142,
+            "density(inh/ha)": 335,
+            "net_density(inh/ha)": "48.2"
+        }
+    ]
+}
+{
+    "_id": 29,
+    "neigh_name": "el Coll",
+    "district_id": 6,
+    "district_name": "Gràcia",
+    "info": [
+        {
+            "year": 2010,
+            "population": 7240,
+            "density(inh/ha)": 653,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 7303,
+            "density(inh/ha)": 589,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 7308,
+            "density(inh/ha)": 589,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 7232,
+            "density(inh/ha)": 583,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 7203,
+            "density(inh/ha)": 581,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 7349,
+            "density(inh/ha)": 593,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 7391,
+            "density(inh/ha)": 596,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 7412,
+            "density(inh/ha)": 598,
+            "net_density(inh/ha)": "12.4"
+        },
+        {
+            "year": 2018,
+            "population": 7427,
+            "density(inh/ha)": 597,
+            "net_density(inh/ha)": "12.4"
+        },
+        {
+            "year": 2019,
+            "population": 7459,
+            "density(inh/ha)": 600,
+            "net_density(inh/ha)": "12.4"
+        },
+        {
+            "year": 2020,
+            "population": 7606,
+            "density(inh/ha)": 612,
+            "net_density(inh/ha)": "12.4"
+        },
+        {
+            "year": 2021,
+            "population": 7590,
+            "density(inh/ha)": 611,
+            "net_density(inh/ha)": "12.4"
+        }
+    ]
+}
+{
+    "_id": 30,
+    "neigh_name": "la Salut",
+    "district_id": 6,
+    "district_name": "Gràcia",
+    "info": [
+        {
+            "year": 2010,
+            "population": 13321,
+            "density(inh/ha)": 700,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 13154,
+            "density(inh/ha)": 678,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 13212,
+            "density(inh/ha)": 676,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 13210,
+            "density(inh/ha)": 681,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 13166,
+            "density(inh/ha)": 679,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 13227,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 13118,
+            "density(inh/ha)": 684,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 13185,
+            "density(inh/ha)": 680,
+            "net_density(inh/ha)": "19.4"
+        },
+        {
+            "year": 2018,
+            "population": 13212,
+            "density(inh/ha)": 679,
+            "net_density(inh/ha)": "19.5"
+        },
+        {
+            "year": 2019,
+            "population": 13347,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "19.5"
+        },
+        {
+            "year": 2020,
+            "population": 13461,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "19.5"
+        },
+        {
+            "year": 2021,
+            "population": 13282,
+            "density(inh/ha)": 680,
+            "net_density(inh/ha)": "19.5"
+        }
+    ]
+}
+{
+    "_id": 31,
+    "neigh_name": "la Vila de Gràcia",
+    "district_id": 6,
+    "district_name": "Gràcia",
+    "info": [
+        {
+            "year": 2010,
+            "population": 52311,
+            "density(inh/ha)": 626,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 51228,
+            "density(inh/ha)": 613,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 51147,
+            "density(inh/ha)": 613,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 50615,
+            "density(inh/ha)": 606,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 50448,
+            "density(inh/ha)": 604,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 50415,
+            "density(inh/ha)": 604,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 50584,
+            "density(inh/ha)": 606,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 50662,
+            "density(inh/ha)": 607,
+            "net_density(inh/ha)": "83.5"
+        },
+        {
+            "year": 2018,
+            "population": 50008,
+            "density(inh/ha)": 598,
+            "net_density(inh/ha)": "83.7"
+        },
+        {
+            "year": 2019,
+            "population": 50102,
+            "density(inh/ha)": 598,
+            "net_density(inh/ha)": "83.8"
+        },
+        {
+            "year": 2020,
+            "population": 50802,
+            "density(inh/ha)": 606,
+            "net_density(inh/ha)": "83.8"
+        },
+        {
+            "year": 2021,
+            "population": 49492,
+            "density(inh/ha)": 589,
+            "net_density(inh/ha)": "84.0"
+        }
+    ]
+}
+{
+    "_id": 32,
+    "neigh_name": "el Camp d'en Grassot i Gràcia Nova",
+    "district_id": 6,
+    "district_name": "Gràcia",
+    "info": [
+        {
+            "year": 2010,
+            "population": 34659,
+            "density(inh/ha)": 900,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 34438,
+            "density(inh/ha)": 895,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 34760,
+            "density(inh/ha)": 903,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 34439,
+            "density(inh/ha)": 895,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 34043,
+            "density(inh/ha)": 883,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 33918,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 34234,
+            "density(inh/ha)": 888,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 34329,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "38.5"
+        },
+        {
+            "year": 2018,
+            "population": 34471,
+            "density(inh/ha)": 894,
+            "net_density(inh/ha)": "38.6"
+        },
+        {
+            "year": 2019,
+            "population": 34911,
+            "density(inh/ha)": 906,
+            "net_density(inh/ha)": "38.5"
+        },
+        {
+            "year": 2020,
+            "population": 35422,
+            "density(inh/ha)": 919,
+            "net_density(inh/ha)": "38.5"
+        },
+        {
+            "year": 2021,
+            "population": 34932,
+            "density(inh/ha)": 907,
+            "net_density(inh/ha)": "38.5"
+        }
+    ]
+}
+{
+    "_id": 33,
+    "neigh_name": "el Baix Guinardó",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 26022,
+            "density(inh/ha)": 1097,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 26022,
+            "density(inh/ha)": 1097,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 25918,
+            "density(inh/ha)": 1092,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 25641,
+            "density(inh/ha)": 1081,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 25527,
+            "density(inh/ha)": 1076,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 25466,
+            "density(inh/ha)": 1073,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 25547,
+            "density(inh/ha)": 1077,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 25672,
+            "density(inh/ha)": 1082,
+            "net_density(inh/ha)": "23.7"
+        },
+        {
+            "year": 2018,
+            "population": 25685,
+            "density(inh/ha)": 1083,
+            "net_density(inh/ha)": "23.7"
+        },
+        {
+            "year": 2019,
+            "population": 25823,
+            "density(inh/ha)": 1089,
+            "net_density(inh/ha)": "23.7"
+        },
+        {
+            "year": 2020,
+            "population": 26154,
+            "density(inh/ha)": 1103,
+            "net_density(inh/ha)": "23.7"
+        },
+        {
+            "year": 2021,
+            "population": 25601,
+            "density(inh/ha)": 1079,
+            "net_density(inh/ha)": "23.7"
+        }
+    ]
+}
+{
+    "_id": 34,
+    "neigh_name": "Can Baró",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 9119,
+            "density(inh/ha)": 608,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 8928,
+            "density(inh/ha)": 623,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 9005,
+            "density(inh/ha)": 628,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 8969,
+            "density(inh/ha)": 625,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 8859,
+            "density(inh/ha)": 618,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 8819,
+            "density(inh/ha)": 615,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 8965,
+            "density(inh/ha)": 625,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 8994,
+            "density(inh/ha)": 627,
+            "net_density(inh/ha)": "14.3"
+        },
+        {
+            "year": 2018,
+            "population": 9045,
+            "density(inh/ha)": 632,
+            "net_density(inh/ha)": "14.3"
+        },
+        {
+            "year": 2019,
+            "population": 9198,
+            "density(inh/ha)": 643,
+            "net_density(inh/ha)": "14.3"
+        },
+        {
+            "year": 2020,
+            "population": 9330,
+            "density(inh/ha)": 652,
+            "net_density(inh/ha)": "14.3"
+        },
+        {
+            "year": 2021,
+            "population": 9233,
+            "density(inh/ha)": 645,
+            "net_density(inh/ha)": "14.3"
+        }
+    ]
+}
+{
+    "_id": 35,
+    "neigh_name": "el Guinardó",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 35655,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 35687,
+            "density(inh/ha)": 682,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 35664,
+            "density(inh/ha)": 682,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 35679,
+            "density(inh/ha)": 682,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 35534,
+            "density(inh/ha)": 679,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 35773,
+            "density(inh/ha)": 684,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 36136,
+            "density(inh/ha)": 693,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 36467,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "52.1"
+        },
+        {
+            "year": 2018,
+            "population": 36757,
+            "density(inh/ha)": 706,
+            "net_density(inh/ha)": "52.0"
+        },
+        {
+            "year": 2019,
+            "population": 37047,
+            "density(inh/ha)": 712,
+            "net_density(inh/ha)": "52.0"
+        },
+        {
+            "year": 2020,
+            "population": 37562,
+            "density(inh/ha)": 722,
+            "net_density(inh/ha)": "52.0"
+        },
+        {
+            "year": 2021,
+            "population": 36939,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "52.0"
+        }
+    ]
+}
+{
+    "_id": 36,
+    "neigh_name": "la Font d'en Fargues",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 9588,
+            "density(inh/ha)": 259,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 9530,
+            "density(inh/ha)": 241,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 9569,
+            "density(inh/ha)": 242,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 9490,
+            "density(inh/ha)": 240,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 9440,
+            "density(inh/ha)": 239,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 9407,
+            "density(inh/ha)": 238,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 9400,
+            "density(inh/ha)": 238,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 9383,
+            "density(inh/ha)": 238,
+            "net_density(inh/ha)": "39.4"
+        },
+        {
+            "year": 2018,
+            "population": 9430,
+            "density(inh/ha)": 243,
+            "net_density(inh/ha)": "38.8"
+        },
+        {
+            "year": 2019,
+            "population": 9481,
+            "density(inh/ha)": 245,
+            "net_density(inh/ha)": "38.8"
+        },
+        {
+            "year": 2020,
+            "population": 9547,
+            "density(inh/ha)": 246,
+            "net_density(inh/ha)": "38.8"
+        },
+        {
+            "year": 2021,
+            "population": 9458,
+            "density(inh/ha)": 244,
+            "net_density(inh/ha)": "38.8"
+        }
+    ]
+}
+{
+    "_id": 37,
+    "neigh_name": "el Carmel",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 32349,
+            "density(inh/ha)": 851,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 32108,
+            "density(inh/ha)": 822,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 32012,
+            "density(inh/ha)": 578,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 31789,
+            "density(inh/ha)": 813,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 31659,
+            "density(inh/ha)": 803,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 31456,
+            "density(inh/ha)": 798,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 31355,
+            "density(inh/ha)": 795,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 31551,
+            "density(inh/ha)": 802,
+            "net_density(inh/ha)": "39.4"
+        },
+        {
+            "year": 2018,
+            "population": 31737,
+            "density(inh/ha)": 804,
+            "net_density(inh/ha)": "39.5"
+        },
+        {
+            "year": 2019,
+            "population": 32044,
+            "density(inh/ha)": 812,
+            "net_density(inh/ha)": "39.5"
+        },
+        {
+            "year": 2020,
+            "population": 32489,
+            "density(inh/ha)": 823,
+            "net_density(inh/ha)": "39.5"
+        },
+        {
+            "year": 2021,
+            "population": 32444,
+            "density(inh/ha)": 822,
+            "net_density(inh/ha)": "39.4"
+        }
+    ]
+}
+{
+    "_id": 38,
+    "neigh_name": "la Teixonera",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 11821,
+            "density(inh/ha)": 637,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 11796,
+            "density(inh/ha)": 626,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 11776,
+            "density(inh/ha)": 625,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 11654,
+            "density(inh/ha)": 619,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 11435,
+            "density(inh/ha)": 607,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 11361,
+            "density(inh/ha)": 603,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 11277,
+            "density(inh/ha)": 599,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 11619,
+            "density(inh/ha)": 630,
+            "net_density(inh/ha)": "18.4"
+        },
+        {
+            "year": 2018,
+            "population": 11604,
+            "density(inh/ha)": 688,
+            "net_density(inh/ha)": "16.9"
+        },
+        {
+            "year": 2019,
+            "population": 11735,
+            "density(inh/ha)": 696,
+            "net_density(inh/ha)": "16.9"
+        },
+        {
+            "year": 2020,
+            "population": 11914,
+            "density(inh/ha)": 706,
+            "net_density(inh/ha)": "16.9"
+        },
+        {
+            "year": 2021,
+            "population": 11926,
+            "density(inh/ha)": 707,
+            "net_density(inh/ha)": "16.9"
+        }
+    ]
+}
+{
+    "_id": 39,
+    "neigh_name": "Sant Genís dels Agudells",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 7159,
+            "density(inh/ha)": 396,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 7035,
+            "density(inh/ha)": 389,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 6985,
+            "density(inh/ha)": 386,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 6935,
+            "density(inh/ha)": 383,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 6884,
+            "density(inh/ha)": 380,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 6754,
+            "density(inh/ha)": 373,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 6725,
+            "density(inh/ha)": 372,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 6854,
+            "density(inh/ha)": 379,
+            "net_density(inh/ha)": "18.1"
+        },
+        {
+            "year": 2018,
+            "population": 7020,
+            "density(inh/ha)": 388,
+            "net_density(inh/ha)": "18.1"
+        },
+        {
+            "year": 2019,
+            "population": 7241,
+            "density(inh/ha)": 429,
+            "net_density(inh/ha)": "16.9"
+        },
+        {
+            "year": 2020,
+            "population": 7377,
+            "density(inh/ha)": 437,
+            "net_density(inh/ha)": "16.9"
+        },
+        {
+            "year": 2021,
+            "population": 7249,
+            "density(inh/ha)": 430,
+            "net_density(inh/ha)": "16.9"
+        }
+    ]
+}
+{
+    "_id": 40,
+    "neigh_name": "Montbau",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 5256,
+            "density(inh/ha)": 450,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 5211,
+            "density(inh/ha)": 446,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 5144,
+            "density(inh/ha)": 441,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 5111,
+            "density(inh/ha)": 438,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 5047,
+            "density(inh/ha)": 432,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 5046,
+            "density(inh/ha)": 432,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 5053,
+            "density(inh/ha)": 441,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 5102,
+            "density(inh/ha)": 448,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2018,
+            "population": 5081,
+            "density(inh/ha)": 447,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2019,
+            "population": 5109,
+            "density(inh/ha)": 450,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2020,
+            "population": 5163,
+            "density(inh/ha)": 455,
+            "net_density(inh/ha)": "11.4"
+        },
+        {
+            "year": 2021,
+            "population": 5071,
+            "density(inh/ha)": 447,
+            "net_density(inh/ha)": "11.4"
+        }
+    ]
+}
+{
+    "_id": 41,
+    "neigh_name": "la Vall d'Hebron",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 5611,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 5580,
+            "density(inh/ha)": 685,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 5569,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 5494,
+            "density(inh/ha)": 674,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 5490,
+            "density(inh/ha)": 674,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 5468,
+            "density(inh/ha)": 671,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 5686,
+            "density(inh/ha)": 732,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 5784,
+            "density(inh/ha)": 724,
+            "net_density(inh/ha)": "8.0"
+        },
+        {
+            "year": 2018,
+            "population": 5732,
+            "density(inh/ha)": 792,
+            "net_density(inh/ha)": "7.2"
+        },
+        {
+            "year": 2019,
+            "population": 5794,
+            "density(inh/ha)": 801,
+            "net_density(inh/ha)": "7.2"
+        },
+        {
+            "year": 2020,
+            "population": 5883,
+            "density(inh/ha)": 813,
+            "net_density(inh/ha)": "7.2"
+        },
+        {
+            "year": 2021,
+            "population": 5882,
+            "density(inh/ha)": 813,
+            "net_density(inh/ha)": "7.2"
+        }
+    ]
+}
+{
+    "_id": 42,
+    "neigh_name": "la Clota",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 453,
+            "density(inh/ha)": 74,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 462,
+            "density(inh/ha)": 75,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 452,
+            "density(inh/ha)": 74,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 438,
+            "density(inh/ha)": 72,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 521,
+            "density(inh/ha)": 85,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 542,
+            "density(inh/ha)": 89,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 583,
+            "density(inh/ha)": 95,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 610,
+            "density(inh/ha)": 100,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2018,
+            "population": 650,
+            "density(inh/ha)": 107,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2019,
+            "population": 683,
+            "density(inh/ha)": 113,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2020,
+            "population": 706,
+            "density(inh/ha)": 116,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2021,
+            "population": 689,
+            "density(inh/ha)": 114,
+            "net_density(inh/ha)": "6.1"
+        }
+    ]
+}
+{
+    "_id": 43,
+    "neigh_name": "Horta",
+    "district_id": 7,
+    "district_name": "Horta-Guinardó",
+    "info": [
+        {
+            "year": 2010,
+            "population": 27762,
+            "density(inh/ha)": 440,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 27537,
+            "density(inh/ha)": 435,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 27013,
+            "density(inh/ha)": 426,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 26543,
+            "density(inh/ha)": 419,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 26554,
+            "density(inh/ha)": 419,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 26467,
+            "density(inh/ha)": 418,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 26541,
+            "density(inh/ha)": 419,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 26715,
+            "density(inh/ha)": 422,
+            "net_density(inh/ha)": "63.4"
+        },
+        {
+            "year": 2018,
+            "population": 26779,
+            "density(inh/ha)": 423,
+            "net_density(inh/ha)": "63.2"
+        },
+        {
+            "year": 2019,
+            "population": 27340,
+            "density(inh/ha)": 433,
+            "net_density(inh/ha)": "63.1"
+        },
+        {
+            "year": 2020,
+            "population": 28322,
+            "density(inh/ha)": 448,
+            "net_density(inh/ha)": "63.2"
+        },
+        {
+            "year": 2021,
+            "population": 27707,
+            "density(inh/ha)": 439,
+            "net_density(inh/ha)": "63.2"
+        }
+    ]
+}
+{
+    "_id": 44,
+    "neigh_name": "Vilapicina i la Torre Llobeta",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 25620,
+            "density(inh/ha)": 879,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 25429,
+            "density(inh/ha)": 873,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 25540,
+            "density(inh/ha)": 876,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 25543,
+            "density(inh/ha)": 881,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 25336,
+            "density(inh/ha)": 874,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 25451,
+            "density(inh/ha)": 878,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 25508,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 25591,
+            "density(inh/ha)": 870,
+            "net_density(inh/ha)": "29.4"
+        },
+        {
+            "year": 2018,
+            "population": 25609,
+            "density(inh/ha)": 873,
+            "net_density(inh/ha)": "29.3"
+        },
+        {
+            "year": 2019,
+            "population": 25805,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "29.3"
+        },
+        {
+            "year": 2020,
+            "population": 26069,
+            "density(inh/ha)": 889,
+            "net_density(inh/ha)": "29.3"
+        },
+        {
+            "year": 2021,
+            "population": 25674,
+            "density(inh/ha)": 875,
+            "net_density(inh/ha)": "29.3"
+        }
+    ]
+}
+{
+    "_id": 45,
+    "neigh_name": "Porta",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 23771,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 23780,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 24222,
+            "density(inh/ha)": 696,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 24193,
+            "density(inh/ha)": 695,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 24224,
+            "density(inh/ha)": 696,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 24240,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 24519,
+            "density(inh/ha)": 697,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 25000,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "35.2"
+        },
+        {
+            "year": 2018,
+            "population": 25467,
+            "density(inh/ha)": 713,
+            "net_density(inh/ha)": "35.7"
+        },
+        {
+            "year": 2019,
+            "population": 26446,
+            "density(inh/ha)": 740,
+            "net_density(inh/ha)": "35.7"
+        },
+        {
+            "year": 2020,
+            "population": 27782,
+            "density(inh/ha)": 778,
+            "net_density(inh/ha)": "35.7"
+        },
+        {
+            "year": 2021,
+            "population": 27418,
+            "density(inh/ha)": 768,
+            "net_density(inh/ha)": "35.7"
+        }
+    ]
+}
+{
+    "_id": 46,
+    "neigh_name": "el Turó de la Peira",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 16683,
+            "density(inh/ha)": 1242,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 16726,
+            "density(inh/ha)": 1246,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 16184,
+            "density(inh/ha)": 1205,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15593,
+            "density(inh/ha)": 1161,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15466,
+            "density(inh/ha)": 1152,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15389,
+            "density(inh/ha)": 1151,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15364,
+            "density(inh/ha)": 1144,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15467,
+            "density(inh/ha)": 1152,
+            "net_density(inh/ha)": "13.4"
+        },
+        {
+            "year": 2018,
+            "population": 15542,
+            "density(inh/ha)": 1168,
+            "net_density(inh/ha)": "13.3"
+        },
+        {
+            "year": 2019,
+            "population": 15710,
+            "density(inh/ha)": 1181,
+            "net_density(inh/ha)": "13.3"
+        },
+        {
+            "year": 2020,
+            "population": 16212,
+            "density(inh/ha)": 1218,
+            "net_density(inh/ha)": "13.3"
+        },
+        {
+            "year": 2021,
+            "population": 16025,
+            "density(inh/ha)": 1204,
+            "net_density(inh/ha)": "13.3"
+        }
+    ]
+}
+{
+    "_id": 47,
+    "neigh_name": "Can Peguera",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 2215,
+            "density(inh/ha)": 266,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 2240,
+            "density(inh/ha)": 270,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 2239,
+            "density(inh/ha)": 269,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 2230,
+            "density(inh/ha)": 268,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 2262,
+            "density(inh/ha)": 272,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 2275,
+            "density(inh/ha)": 274,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 2258,
+            "density(inh/ha)": 373,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 2271,
+            "density(inh/ha)": 375,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2018,
+            "population": 2268,
+            "density(inh/ha)": 369,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2019,
+            "population": 2288,
+            "density(inh/ha)": 372,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2020,
+            "population": 2273,
+            "density(inh/ha)": 370,
+            "net_density(inh/ha)": "6.1"
+        },
+        {
+            "year": 2021,
+            "population": 2204,
+            "density(inh/ha)": 359,
+            "net_density(inh/ha)": "6.1"
+        }
+    ]
+}
+{
+    "_id": 48,
+    "neigh_name": "la Guineueta",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 15296,
+            "density(inh/ha)": 680,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15268,
+            "density(inh/ha)": 679,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 15185,
+            "density(inh/ha)": 675,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15117,
+            "density(inh/ha)": 672,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15056,
+            "density(inh/ha)": 670,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15099,
+            "density(inh/ha)": 675,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15043,
+            "density(inh/ha)": 674,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15231,
+            "density(inh/ha)": 691,
+            "net_density(inh/ha)": "22.0"
+        },
+        {
+            "year": 2018,
+            "population": 15271,
+            "density(inh/ha)": 693,
+            "net_density(inh/ha)": "22.0"
+        },
+        {
+            "year": 2019,
+            "population": 15361,
+            "density(inh/ha)": 697,
+            "net_density(inh/ha)": "22.0"
+        },
+        {
+            "year": 2020,
+            "population": 15416,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "22.0"
+        },
+        {
+            "year": 2021,
+            "population": 15189,
+            "density(inh/ha)": 689,
+            "net_density(inh/ha)": "22.0"
+        }
+    ]
+}
+{
+    "_id": 49,
+    "neigh_name": "Canyelles",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 7310,
+            "density(inh/ha)": 804,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 7240,
+            "density(inh/ha)": 796,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 7197,
+            "density(inh/ha)": 792,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 7102,
+            "density(inh/ha)": 781,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 6981,
+            "density(inh/ha)": 768,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 6953,
+            "density(inh/ha)": 622,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 6923,
+            "density(inh/ha)": 622,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 6856,
+            "density(inh/ha)": 618,
+            "net_density(inh/ha)": "11.1"
+        },
+        {
+            "year": 2018,
+            "population": 6879,
+            "density(inh/ha)": 627,
+            "net_density(inh/ha)": "11.0"
+        },
+        {
+            "year": 2019,
+            "population": 6879,
+            "density(inh/ha)": 627,
+            "net_density(inh/ha)": "11.0"
+        },
+        {
+            "year": 2020,
+            "population": 6865,
+            "density(inh/ha)": 626,
+            "net_density(inh/ha)": "11.0"
+        },
+        {
+            "year": 2021,
+            "population": 6797,
+            "density(inh/ha)": 620,
+            "net_density(inh/ha)": "11.0"
+        }
+    ]
+}
+{
+    "_id": 50,
+    "neigh_name": "les Roquetes",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 15964,
+            "density(inh/ha)": 871,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 15987,
+            "density(inh/ha)": 872,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 16042,
+            "density(inh/ha)": 875,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 15768,
+            "density(inh/ha)": 860,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 15564,
+            "density(inh/ha)": 849,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 15398,
+            "density(inh/ha)": 846,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 15398,
+            "density(inh/ha)": 846,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15590,
+            "density(inh/ha)": 856,
+            "net_density(inh/ha)": "18.2"
+        },
+        {
+            "year": 2018,
+            "population": 15711,
+            "density(inh/ha)": 861,
+            "net_density(inh/ha)": "18.3"
+        },
+        {
+            "year": 2019,
+            "population": 16156,
+            "density(inh/ha)": 885,
+            "net_density(inh/ha)": "18.3"
+        },
+        {
+            "year": 2020,
+            "population": 16369,
+            "density(inh/ha)": 897,
+            "net_density(inh/ha)": "18.3"
+        },
+        {
+            "year": 2021,
+            "population": 16373,
+            "density(inh/ha)": 897,
+            "net_density(inh/ha)": "18.2"
+        }
+    ]
+}
+{
+    "_id": 51,
+    "neigh_name": "Verdun",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 12300,
+            "density(inh/ha)": 845,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 12308,
+            "density(inh/ha)": 845,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 12453,
+            "density(inh/ha)": 855,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 12329,
+            "density(inh/ha)": 847,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 12122,
+            "density(inh/ha)": 830,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 12225,
+            "density(inh/ha)": 857,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 12260,
+            "density(inh/ha)": 859,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 12353,
+            "density(inh/ha)": 867,
+            "net_density(inh/ha)": "14.3"
+        },
+        {
+            "year": 2018,
+            "population": 12410,
+            "density(inh/ha)": 871,
+            "net_density(inh/ha)": "14.2"
+        },
+        {
+            "year": 2019,
+            "population": 12531,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "14.2"
+        },
+        {
+            "year": 2020,
+            "population": 12786,
+            "density(inh/ha)": 898,
+            "net_density(inh/ha)": "14.2"
+        },
+        {
+            "year": 2021,
+            "population": 12727,
+            "density(inh/ha)": 894,
+            "net_density(inh/ha)": "14.2"
+        }
+    ]
+}
+{
+    "_id": 52,
+    "neigh_name": "la Prosperitat",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 26575,
+            "density(inh/ha)": 976,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 26566,
+            "density(inh/ha)": 975,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 26471,
+            "density(inh/ha)": 972,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 26299,
+            "density(inh/ha)": 965,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 26089,
+            "density(inh/ha)": 958,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 25979,
+            "density(inh/ha)": 949,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 26167,
+            "density(inh/ha)": 957,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 26389,
+            "density(inh/ha)": 965,
+            "net_density(inh/ha)": "27.3"
+        },
+        {
+            "year": 2018,
+            "population": 26505,
+            "density(inh/ha)": 976,
+            "net_density(inh/ha)": "27.2"
+        },
+        {
+            "year": 2019,
+            "population": 26785,
+            "density(inh/ha)": 989,
+            "net_density(inh/ha)": "27.1"
+        },
+        {
+            "year": 2020,
+            "population": 27001,
+            "density(inh/ha)": 997,
+            "net_density(inh/ha)": "27.1"
+        },
+        {
+            "year": 2021,
+            "population": 26669,
+            "density(inh/ha)": 985,
+            "net_density(inh/ha)": "27.1"
+        }
+    ]
+}
+{
+    "_id": 53,
+    "neigh_name": "la Trinitat Nova",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 7871,
+            "density(inh/ha)": 626,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 7704,
+            "density(inh/ha)": 613,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 7627,
+            "density(inh/ha)": 607,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 7551,
+            "density(inh/ha)": 601,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 7388,
+            "density(inh/ha)": 588,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 7332,
+            "density(inh/ha)": 583,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 7257,
+            "density(inh/ha)": 577,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 7261,
+            "density(inh/ha)": 578,
+            "net_density(inh/ha)": "12.6"
+        },
+        {
+            "year": 2018,
+            "population": 7346,
+            "density(inh/ha)": 585,
+            "net_density(inh/ha)": "12.6"
+        },
+        {
+            "year": 2019,
+            "population": 7591,
+            "density(inh/ha)": 604,
+            "net_density(inh/ha)": "12.6"
+        },
+        {
+            "year": 2020,
+            "population": 7666,
+            "density(inh/ha)": 610,
+            "net_density(inh/ha)": "12.6"
+        },
+        {
+            "year": 2021,
+            "population": 7507,
+            "density(inh/ha)": 598,
+            "net_density(inh/ha)": "12.6"
+        }
+    ]
+}
+{
+    "_id": 54,
+    "neigh_name": "Torre Baró",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 2167,
+            "density(inh/ha)": 100,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 2172,
+            "density(inh/ha)": 101,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 2173,
+            "density(inh/ha)": 101,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 2192,
+            "density(inh/ha)": 101,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 2547,
+            "density(inh/ha)": 118,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 2727,
+            "density(inh/ha)": 126,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 2791,
+            "density(inh/ha)": 132,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 2856,
+            "density(inh/ha)": 135,
+            "net_density(inh/ha)": "21.2"
+        },
+        {
+            "year": 2018,
+            "population": 2880,
+            "density(inh/ha)": 136,
+            "net_density(inh/ha)": "21.2"
+        },
+        {
+            "year": 2019,
+            "population": 2914,
+            "density(inh/ha)": 138,
+            "net_density(inh/ha)": "21.2"
+        },
+        {
+            "year": 2020,
+            "population": 2921,
+            "density(inh/ha)": 138,
+            "net_density(inh/ha)": "21.2"
+        },
+        {
+            "year": 2021,
+            "population": 2890,
+            "density(inh/ha)": 136,
+            "net_density(inh/ha)": "21.2"
+        }
+    ]
+}
+{
+    "_id": 55,
+    "neigh_name": "Ciutat Meridiana",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 10843,
+            "density(inh/ha)": 716,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 10874,
+            "density(inh/ha)": 718,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 10748,
+            "density(inh/ha)": 710,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 10485,
+            "density(inh/ha)": 692,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 10171,
+            "density(inh/ha)": 672,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 10245,
+            "density(inh/ha)": 676,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 10041,
+            "density(inh/ha)": 663,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 10342,
+            "density(inh/ha)": 683,
+            "net_density(inh/ha)": "15.1"
+        },
+        {
+            "year": 2018,
+            "population": 10579,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "15.1"
+        },
+        {
+            "year": 2019,
+            "population": 10798,
+            "density(inh/ha)": 714,
+            "net_density(inh/ha)": "15.1"
+        },
+        {
+            "year": 2020,
+            "population": 11083,
+            "density(inh/ha)": 733,
+            "net_density(inh/ha)": "15.1"
+        },
+        {
+            "year": 2021,
+            "population": 11026,
+            "density(inh/ha)": 729,
+            "net_density(inh/ha)": "15.1"
+        }
+    ]
+}
+{
+    "_id": 56,
+    "neigh_name": "Vallbona",
+    "district_id": 8,
+    "district_name": "Nou Barris",
+    "info": [
+        {
+            "year": 2010,
+            "population": 1334,
+            "density(inh/ha)": 197,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 1343,
+            "density(inh/ha)": 199,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 1338,
+            "density(inh/ha)": 198,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 1346,
+            "density(inh/ha)": 199,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 1310,
+            "density(inh/ha)": 194,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 1335,
+            "density(inh/ha)": 198,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 1352,
+            "density(inh/ha)": 199,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 1372,
+            "density(inh/ha)": 203,
+            "net_density(inh/ha)": "6.8"
+        },
+        {
+            "year": 2018,
+            "population": 1401,
+            "density(inh/ha)": 206,
+            "net_density(inh/ha)": "6.8"
+        },
+        {
+            "year": 2019,
+            "population": 1405,
+            "density(inh/ha)": 207,
+            "net_density(inh/ha)": "6.8"
+        },
+        {
+            "year": 2020,
+            "population": 1421,
+            "density(inh/ha)": 209,
+            "net_density(inh/ha)": "6.8"
+        },
+        {
+            "year": 2021,
+            "population": 1384,
+            "density(inh/ha)": 204,
+            "net_density(inh/ha)": "6.8"
+        }
+    ]
+}
+{
+    "_id": 57,
+    "neigh_name": "la Trinitat Vella",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 10241,
+            "density(inh/ha)": 815,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 10385,
+            "density(inh/ha)": 816,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 10387,
+            "density(inh/ha)": 818,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 10423,
+            "density(inh/ha)": 821,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 10241,
+            "density(inh/ha)": 807,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 10059,
+            "density(inh/ha)": 792,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 10032,
+            "density(inh/ha)": 790,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 9983,
+            "density(inh/ha)": 786,
+            "net_density(inh/ha)": "12.7"
+        },
+        {
+            "year": 2018,
+            "population": 10011,
+            "density(inh/ha)": 784,
+            "net_density(inh/ha)": "12.8"
+        },
+        {
+            "year": 2019,
+            "population": 10285,
+            "density(inh/ha)": 810,
+            "net_density(inh/ha)": "12.7"
+        },
+        {
+            "year": 2020,
+            "population": 10479,
+            "density(inh/ha)": 826,
+            "net_density(inh/ha)": "12.7"
+        },
+        {
+            "year": 2021,
+            "population": 10364,
+            "density(inh/ha)": 817,
+            "net_density(inh/ha)": "12.7"
+        }
+    ]
+}
+{
+    "_id": 58,
+    "neigh_name": "Baró de Viver",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 2393,
+            "density(inh/ha)": 611,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 2414,
+            "density(inh/ha)": 617,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 2412,
+            "density(inh/ha)": 616,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 2415,
+            "density(inh/ha)": 617,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 2481,
+            "density(inh/ha)": 634,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 2482,
+            "density(inh/ha)": 634,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 2507,
+            "density(inh/ha)": 641,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 2539,
+            "density(inh/ha)": 649,
+            "net_density(inh/ha)": "3.9"
+        },
+        {
+            "year": 2018,
+            "population": 2532,
+            "density(inh/ha)": 644,
+            "net_density(inh/ha)": "3.9"
+        },
+        {
+            "year": 2019,
+            "population": 2597,
+            "density(inh/ha)": 660,
+            "net_density(inh/ha)": "3.9"
+        },
+        {
+            "year": 2020,
+            "population": 2622,
+            "density(inh/ha)": 667,
+            "net_density(inh/ha)": "3.9"
+        },
+        {
+            "year": 2021,
+            "population": 2645,
+            "density(inh/ha)": 673,
+            "net_density(inh/ha)": "3.9"
+        }
+    ]
+}
+{
+    "_id": 59,
+    "neigh_name": "el Bon Pastor",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 13730,
+            "density(inh/ha)": 854,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 13597,
+            "density(inh/ha)": 846,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 13203,
+            "density(inh/ha)": 821,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 12800,
+            "density(inh/ha)": 796,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 12670,
+            "density(inh/ha)": 788,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 12554,
+            "density(inh/ha)": 702,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 12589,
+            "density(inh/ha)": 704,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 12560,
+            "density(inh/ha)": 702,
+            "net_density(inh/ha)": "17.9"
+        },
+        {
+            "year": 2018,
+            "population": 12700,
+            "density(inh/ha)": 713,
+            "net_density(inh/ha)": "17.8"
+        },
+        {
+            "year": 2019,
+            "population": 13084,
+            "density(inh/ha)": 735,
+            "net_density(inh/ha)": "17.8"
+        },
+        {
+            "year": 2020,
+            "population": 13640,
+            "density(inh/ha)": 766,
+            "net_density(inh/ha)": "17.8"
+        },
+        {
+            "year": 2021,
+            "population": 13582,
+            "density(inh/ha)": 763,
+            "net_density(inh/ha)": "17.8"
+        }
+    ]
+}
+{
+    "_id": 60,
+    "neigh_name": "Sant Andreu",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 55835,
+            "density(inh/ha)": 748,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 56103,
+            "density(inh/ha)": 746,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 56297,
+            "density(inh/ha)": 749,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 56476,
+            "density(inh/ha)": 735,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 56269,
+            "density(inh/ha)": 733,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 56503,
+            "density(inh/ha)": 736,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 56683,
+            "density(inh/ha)": 738,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 57183,
+            "density(inh/ha)": 746,
+            "net_density(inh/ha)": "76.6"
+        },
+        {
+            "year": 2018,
+            "population": 57551,
+            "density(inh/ha)": 752,
+            "net_density(inh/ha)": "76.5"
+        },
+        {
+            "year": 2019,
+            "population": 57843,
+            "density(inh/ha)": 756,
+            "net_density(inh/ha)": "76.5"
+        },
+        {
+            "year": 2020,
+            "population": 58484,
+            "density(inh/ha)": 765,
+            "net_density(inh/ha)": "76.5"
+        },
+        {
+            "year": 2021,
+            "population": 57954,
+            "density(inh/ha)": 758,
+            "net_density(inh/ha)": "76.5"
+        }
+    ]
+}
+{
+    "_id": 61,
+    "neigh_name": "la Sagrera",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 28879,
+            "density(inh/ha)": 739,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 29138,
+            "density(inh/ha)": 739,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 29110,
+            "density(inh/ha)": 736,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 28911,
+            "density(inh/ha)": 733,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 28660,
+            "density(inh/ha)": 727,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 28887,
+            "density(inh/ha)": 730,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 28796,
+            "density(inh/ha)": 728,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 29084,
+            "density(inh/ha)": 736,
+            "net_density(inh/ha)": "39.5"
+        },
+        {
+            "year": 2018,
+            "population": 29205,
+            "density(inh/ha)": 766,
+            "net_density(inh/ha)": "38.1"
+        },
+        {
+            "year": 2019,
+            "population": 29353,
+            "density(inh/ha)": 770,
+            "net_density(inh/ha)": "38.1"
+        },
+        {
+            "year": 2020,
+            "population": 29593,
+            "density(inh/ha)": 777,
+            "net_density(inh/ha)": "38.1"
+        },
+        {
+            "year": 2021,
+            "population": 29351,
+            "density(inh/ha)": 770,
+            "net_density(inh/ha)": "38.1"
+        }
+    ]
+}
+{
+    "_id": 62,
+    "neigh_name": "el Congrés i els Indians",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 13956,
+            "density(inh/ha)": 691,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 14011,
+            "density(inh/ha)": 694,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 14129,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 14010,
+            "density(inh/ha)": 731,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 13921,
+            "density(inh/ha)": 727,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 14043,
+            "density(inh/ha)": 733,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 14044,
+            "density(inh/ha)": 730,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 14116,
+            "density(inh/ha)": 737,
+            "net_density(inh/ha)": "19.1"
+        },
+        {
+            "year": 2018,
+            "population": 14160,
+            "density(inh/ha)": 740,
+            "net_density(inh/ha)": "19.1"
+        },
+        {
+            "year": 2019,
+            "population": 14483,
+            "density(inh/ha)": 757,
+            "net_density(inh/ha)": "19.1"
+        },
+        {
+            "year": 2020,
+            "population": 14714,
+            "density(inh/ha)": 769,
+            "net_density(inh/ha)": "19.1"
+        },
+        {
+            "year": 2021,
+            "population": 14420,
+            "density(inh/ha)": 753,
+            "net_density(inh/ha)": "19.1"
+        }
+    ]
+}
+{
+    "_id": 63,
+    "neigh_name": "Navas",
+    "district_id": 9,
+    "district_name": "Sant Andreu",
+    "info": [
+        {
+            "year": 2010,
+            "population": 21810,
+            "density(inh/ha)": 963,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 21722,
+            "density(inh/ha)": 959,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 21915,
+            "density(inh/ha)": 974,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 21811,
+            "density(inh/ha)": 969,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 21741,
+            "density(inh/ha)": 966,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 21966,
+            "density(inh/ha)": 976,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 22080,
+            "density(inh/ha)": 981,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 22129,
+            "density(inh/ha)": 984,
+            "net_density(inh/ha)": "22.5"
+        },
+        {
+            "year": 2018,
+            "population": 22073,
+            "density(inh/ha)": 984,
+            "net_density(inh/ha)": "22.4"
+        },
+        {
+            "year": 2019,
+            "population": 22176,
+            "density(inh/ha)": 988,
+            "net_density(inh/ha)": "22.4"
+        },
+        {
+            "year": 2020,
+            "population": 22428,
+            "density(inh/ha)": 999,
+            "net_density(inh/ha)": "22.4"
+        },
+        {
+            "year": 2021,
+            "population": 22091,
+            "density(inh/ha)": 984,
+            "net_density(inh/ha)": "22.4"
+        }
+    ]
+}
+{
+    "_id": 64,
+    "neigh_name": "el Camp de l'Arpa del Clot",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 38338,
+            "density(inh/ha)": 892,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 37969,
+            "density(inh/ha)": 884,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 38186,
+            "density(inh/ha)": 889,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 37933,
+            "density(inh/ha)": 883,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 37795,
+            "density(inh/ha)": 880,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 38178,
+            "density(inh/ha)": 889,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 38104,
+            "density(inh/ha)": 887,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 38168,
+            "density(inh/ha)": 888,
+            "net_density(inh/ha)": "43.0"
+        },
+        {
+            "year": 2018,
+            "population": 38176,
+            "density(inh/ha)": 890,
+            "net_density(inh/ha)": "42.9"
+        },
+        {
+            "year": 2019,
+            "population": 38663,
+            "density(inh/ha)": 901,
+            "net_density(inh/ha)": "42.9"
+        },
+        {
+            "year": 2020,
+            "population": 39096,
+            "density(inh/ha)": 911,
+            "net_density(inh/ha)": "42.9"
+        },
+        {
+            "year": 2021,
+            "population": 38360,
+            "density(inh/ha)": 894,
+            "net_density(inh/ha)": "42.9"
+        }
+    ]
+}
+{
+    "_id": 65,
+    "neigh_name": "el Clot",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 27495,
+            "density(inh/ha)": 1174,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 27379,
+            "density(inh/ha)": 1159,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 27325,
+            "density(inh/ha)": 1157,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 27169,
+            "density(inh/ha)": 1150,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 27035,
+            "density(inh/ha)": 1145,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 26933,
+            "density(inh/ha)": 1141,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 26898,
+            "density(inh/ha)": 1139,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 27039,
+            "density(inh/ha)": 1145,
+            "net_density(inh/ha)": "23.6"
+        },
+        {
+            "year": 2018,
+            "population": 26965,
+            "density(inh/ha)": 1150,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2019,
+            "population": 27041,
+            "density(inh/ha)": 1154,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2020,
+            "population": 27058,
+            "density(inh/ha)": 1154,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2021,
+            "population": 26520,
+            "density(inh/ha)": 1131,
+            "net_density(inh/ha)": "23.4"
+        }
+    ]
+}
+{
+    "_id": 66,
+    "neigh_name": "el Parc i la Llacuna del Poblenou",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 13468,
+            "density(inh/ha)": 690,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 13736,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 14043,
+            "density(inh/ha)": 715,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 14355,
+            "density(inh/ha)": 731,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 14613,
+            "density(inh/ha)": 744,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 14708,
+            "density(inh/ha)": 745,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 14838,
+            "density(inh/ha)": 745,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 15134,
+            "density(inh/ha)": 758,
+            "net_density(inh/ha)": "20.0"
+        },
+        {
+            "year": 2018,
+            "population": 15254,
+            "density(inh/ha)": 687,
+            "net_density(inh/ha)": "22.2"
+        },
+        {
+            "year": 2019,
+            "population": 15461,
+            "density(inh/ha)": 693,
+            "net_density(inh/ha)": "22.3"
+        },
+        {
+            "year": 2020,
+            "population": 15896,
+            "density(inh/ha)": 712,
+            "net_density(inh/ha)": "22.3"
+        },
+        {
+            "year": 2021,
+            "population": 15603,
+            "density(inh/ha)": 699,
+            "net_density(inh/ha)": "22.3"
+        }
+    ]
+}
+{
+    "_id": 67,
+    "neigh_name": "la Vila Olímpica del Poblenou",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 9240,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 9252,
+            "density(inh/ha)": 383,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 9249,
+            "density(inh/ha)": 382,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 9319,
+            "density(inh/ha)": 385,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 9364,
+            "density(inh/ha)": 387,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 9326,
+            "density(inh/ha)": 386,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 9335,
+            "density(inh/ha)": 386,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 9367,
+            "density(inh/ha)": 387,
+            "net_density(inh/ha)": "24.2"
+        },
+        {
+            "year": 2018,
+            "population": 9265,
+            "density(inh/ha)": 381,
+            "net_density(inh/ha)": "24.3"
+        },
+        {
+            "year": 2019,
+            "population": 9261,
+            "density(inh/ha)": 380,
+            "net_density(inh/ha)": "24.3"
+        },
+        {
+            "year": 2020,
+            "population": 9360,
+            "density(inh/ha)": 385,
+            "net_density(inh/ha)": "24.3"
+        },
+        {
+            "year": 2021,
+            "population": 9240,
+            "density(inh/ha)": 380,
+            "net_density(inh/ha)": "24.3"
+        }
+    ]
+}
+{
+    "_id": 68,
+    "neigh_name": "el Poblenou",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 31377,
+            "density(inh/ha)": 737,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 32089,
+            "density(inh/ha)": 753,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 32552,
+            "density(inh/ha)": 764,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 32838,
+            "density(inh/ha)": 771,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 33011,
+            "density(inh/ha)": 775,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 33437,
+            "density(inh/ha)": 786,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 33586,
+            "density(inh/ha)": 789,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 33843,
+            "density(inh/ha)": 795,
+            "net_density(inh/ha)": "42.6"
+        },
+        {
+            "year": 2018,
+            "population": 33844,
+            "density(inh/ha)": 752,
+            "net_density(inh/ha)": "45.0"
+        },
+        {
+            "year": 2019,
+            "population": 33861,
+            "density(inh/ha)": 752,
+            "net_density(inh/ha)": "45.0"
+        },
+        {
+            "year": 2020,
+            "population": 34373,
+            "density(inh/ha)": 764,
+            "net_density(inh/ha)": "45.0"
+        },
+        {
+            "year": 2021,
+            "population": 33976,
+            "density(inh/ha)": 755,
+            "net_density(inh/ha)": "45.0"
+        }
+    ]
+}
+{
+    "_id": 69,
+    "neigh_name": "Diagonal Mar i el Front Marítim del Poblenou",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 11262,
+            "density(inh/ha)": 489,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 12008,
+            "density(inh/ha)": 522,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 12522,
+            "density(inh/ha)": 544,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 12894,
+            "density(inh/ha)": 560,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 13156,
+            "density(inh/ha)": 571,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 13369,
+            "density(inh/ha)": 581,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 13397,
+            "density(inh/ha)": 582,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 13629,
+            "density(inh/ha)": 592,
+            "net_density(inh/ha)": "23.0"
+        },
+        {
+            "year": 2018,
+            "population": 13574,
+            "density(inh/ha)": 566,
+            "net_density(inh/ha)": "24.0"
+        },
+        {
+            "year": 2019,
+            "population": 13501,
+            "density(inh/ha)": 563,
+            "net_density(inh/ha)": "24.0"
+        },
+        {
+            "year": 2020,
+            "population": 13510,
+            "density(inh/ha)": 564,
+            "net_density(inh/ha)": "24.0"
+        },
+        {
+            "year": 2021,
+            "population": 13323,
+            "density(inh/ha)": 556,
+            "net_density(inh/ha)": "24.0"
+        }
+    ]
+}
+{
+    "_id": 70,
+    "neigh_name": "el Besòs i el Maresme",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 23749,
+            "density(inh/ha)": 904,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 23948,
+            "density(inh/ha)": 906,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 23725,
+            "density(inh/ha)": 901,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 23118,
+            "density(inh/ha)": 878,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 22829,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 22834,
+            "density(inh/ha)": 891,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 22746,
+            "density(inh/ha)": 888,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 23009,
+            "density(inh/ha)": 885,
+            "net_density(inh/ha)": "26.0"
+        },
+        {
+            "year": 2018,
+            "population": 23582,
+            "density(inh/ha)": 839,
+            "net_density(inh/ha)": "28.1"
+        },
+        {
+            "year": 2019,
+            "population": 24673,
+            "density(inh/ha)": 878,
+            "net_density(inh/ha)": "28.1"
+        },
+        {
+            "year": 2020,
+            "population": 25654,
+            "density(inh/ha)": 913,
+            "net_density(inh/ha)": "28.1"
+        },
+        {
+            "year": 2021,
+            "population": 25657,
+            "density(inh/ha)": 913,
+            "net_density(inh/ha)": "28.1"
+        }
+    ]
+}
+{
+    "_id": 71,
+    "neigh_name": "Provençals del Poblenou",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 19580,
+            "density(inh/ha)": 1504,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 19560,
+            "density(inh/ha)": 1451,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 19887,
+            "density(inh/ha)": 1475,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 20052,
+            "density(inh/ha)": 1487,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 20096,
+            "density(inh/ha)": 1491,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 20161,
+            "density(inh/ha)": 1496,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 20369,
+            "density(inh/ha)": 1511,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 20487,
+            "density(inh/ha)": 1490,
+            "net_density(inh/ha)": "13.8"
+        },
+        {
+            "year": 2018,
+            "population": 20534,
+            "density(inh/ha)": 1308,
+            "net_density(inh/ha)": "15.7"
+        },
+        {
+            "year": 2019,
+            "population": 21002,
+            "density(inh/ha)": 1371,
+            "net_density(inh/ha)": "15.3"
+        },
+        {
+            "year": 2020,
+            "population": 21303,
+            "density(inh/ha)": 1391,
+            "net_density(inh/ha)": "15.3"
+        },
+        {
+            "year": 2021,
+            "population": 20949,
+            "density(inh/ha)": 1368,
+            "net_density(inh/ha)": "15.3"
+        }
+    ]
+}
+{
+    "_id": 72,
+    "neigh_name": "Sant Martí de Provençals",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 26164,
+            "density(inh/ha)": 1151,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 26164,
+            "density(inh/ha)": 1151,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 26151,
+            "density(inh/ha)": 1151,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 25994,
+            "density(inh/ha)": 1144,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 25917,
+            "density(inh/ha)": 1140,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 25975,
+            "density(inh/ha)": 1147,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 26010,
+            "density(inh/ha)": 1149,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 26146,
+            "density(inh/ha)": 1116,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2018,
+            "population": 26015,
+            "density(inh/ha)": 1111,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2019,
+            "population": 26061,
+            "density(inh/ha)": 1113,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2020,
+            "population": 26150,
+            "density(inh/ha)": 1116,
+            "net_density(inh/ha)": "23.4"
+        },
+        {
+            "year": 2021,
+            "population": 26032,
+            "density(inh/ha)": 1111,
+            "net_density(inh/ha)": "23.4"
+        }
+    ]
+}
+{
+    "_id": 73,
+    "neigh_name": "la Verneda i la Pau",
+    "district_id": 10,
+    "district_name": "Sant Martí",
+    "info": [
+        {
+            "year": 2010,
+            "population": 29460,
+            "density(inh/ha)": 978,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2011,
+            "population": 29053,
+            "density(inh/ha)": 964,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2012,
+            "population": 29245,
+            "density(inh/ha)": 971,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2013,
+            "population": 29154,
+            "density(inh/ha)": 899,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2014,
+            "population": 28813,
+            "density(inh/ha)": 889,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2015,
+            "population": 28738,
+            "density(inh/ha)": 717,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2016,
+            "population": 28645,
+            "density(inh/ha)": 714,
+            "net_density(inh/ha)": "NA"
+        },
+        {
+            "year": 2017,
+            "population": 28691,
+            "density(inh/ha)": 716,
+            "net_density(inh/ha)": "40.1"
+        },
+        {
+            "year": 2018,
+            "population": 28751,
+            "density(inh/ha)": 720,
+            "net_density(inh/ha)": "39.9"
+        },
+        {
+            "year": 2019,
+            "population": 28791,
+            "density(inh/ha)": 721,
+            "net_density(inh/ha)": "39.9"
+        },
+        {
+            "year": 2020,
+            "population": 28863,
+            "density(inh/ha)": 721,
+            "net_density(inh/ha)": "40.0"
+        },
+        {
+            "year": 2021,
+            "population": 28585,
+            "density(inh/ha)": 714,
+            "net_density(inh/ha)": "40.0"
+        }
+    ]
+}
