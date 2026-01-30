@@ -25,9 +25,9 @@ def render_input_form():
         neighborhoods = get_neighborhoods(district)
         neighborhood = st.selectbox("Neighborhood", options=neighborhoods)
 
-    # Get hidden features
+    # Get hidden features (pass district for fallback lookup)
     neighborhood_id = get_neighborhood_id(neighborhood)
-    socio_metrics = get_socio_metrics(neighborhood_id)
+    socio_metrics = get_socio_metrics(neighborhood_id, district=district)
 
     st.markdown("---")
 
