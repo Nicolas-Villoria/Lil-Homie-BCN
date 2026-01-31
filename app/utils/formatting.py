@@ -1,3 +1,5 @@
+"""Formatting utilities for currency and numbers."""
+
 def format_euro(amount):
     """Formats a number as Euro currency (e.g. 1.250 €)"""
     if amount is None:

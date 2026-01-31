@@ -1,5 +1,5 @@
 """
-Barcelona Sale Price Predictor
+Lil Homey - Barcelona Property Valuator
 
 A modern Streamlit application for predicting Barcelona property prices.
 Powered by a cloud-deployed ML API.
@@ -13,111 +13,129 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Page config must be first Streamlit command
 st.set_page_config(
-    page_title="Barcelona Sale Price Predictor",
+    page_title="Lil Homey | Barcelona Property Valuator",
     page_icon="🏠",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="collapsed"
 )
 
 # Import components
-from app.components.ui import render_header, render_result_card
-from app.components.forms import render_input_form
+from app.components.ui import render_background_and_styles, render_card_header, render_result_card, render_card_footer, render_section_title
+from app.services.data_service import get_districts, get_neighborhoods, get_neighborhood_id, get_socio_metrics
 from app.services.api_client import get_api_client, check_api_health
+
+# Property types
+PROPERTY_TYPES = ['flat', 'penthouse', 'duplex', 'studio', 'chalet', 'countryHouse']
 
 
 def main():
     """Main application entry point."""
     
-    # Render header
-    render_header()
+    # Render background image and global styles
+    render_background_and_styles()
+    
+    # Card header with logo
+    render_card_header()
+    
+    # === LOCATION SECTION ===
+    render_section_title("📍", "Location")
+    
+    col1, col2 = st.columns(2)
+    
+    districts = get_districts()
+    
+    with col1:
+        district = st.selectbox("District", options=districts, label_visibility="collapsed", 
+                               help="Select the district")
+    
+    with col2:
+        neighborhoods = get_neighborhoods(district) if district else []
+        neighborhood = st.selectbox("Neighborhood", options=neighborhoods, label_visibility="collapsed",
+                                   help="Select the neighborhood")
+    
+    # Get socioeconomic data
+    neighborhood_id = get_neighborhood_id(neighborhood) if neighborhood else None
+    socio_metrics = get_socio_metrics(neighborhood_id, district=district) if neighborhood_id else {'income': 15374, 'density': 200}
+    
+    # === PROPERTY DETAILS SECTION ===
+    render_section_title("🏠", "Property Details")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        size = st.number_input("Size (m²)", min_value=15, max_value=1000, value=75)
+    
+    with col2:
+        rooms = st.number_input("Bedrooms", min_value=0, max_value=10, value=2)
+    
+    with col3:
+        bathrooms = st.number_input("Bathrooms", min_value=1, max_value=10, value=1)
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        prop_type = st.selectbox("Property Type", options=PROPERTY_TYPES, index=0)
+    
+    with col2:
+        floor = st.number_input("Floor", min_value=0, max_value=50, value=2, help="0 = Ground floor")
+    
+    # === AMENITIES SECTION ===
+    render_section_title("✨", "Amenities")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        has_elevator = st.checkbox("Elevator", value=True)
+    
+    with col2:
+        has_parking = st.checkbox("Parking", value=False)
+    
+    with col3:
+        has_ac = st.checkbox("Air Conditioning", value=False)
+    
     st.markdown("---")
     
-    # Check API health (cached check)
-    api_healthy = check_api_health()
+    # === SUBMIT BUTTON ===
+    submitted = st.button("Get Valuation", use_container_width=True)
     
-    # Layout
-    col_left, col_right = st.columns([1, 1.5], gap="large")
-    
-    with col_left:
-        # Input Form
-        features = render_input_form()
-    
-    with col_right:
-        # Results Area
-        st.markdown("### Market Intelligence")
+    # === RESULTS SECTION ===
+    if submitted:
+        # Build features dict
+        features = {
+            "size": size,
+            "rooms": rooms,
+            "bathrooms": bathrooms,
+            "neighborhood": neighborhood,
+            "propertyType": prop_type,
+            "district": district,
+            "avg_income_index": socio_metrics.get('income', 15374),
+            "density_val": socio_metrics.get('density', 200),
+            "has_lift": has_elevator,
+            "has_parking": has_parking,
+            "has_ac": has_ac,
+            "floor": floor
+        }
         
-        if features is None:
-            # Welcome state
-            st.info("👈 Fill out the property details on the left to get an instant valuation.")
+        # Call the API
+        with st.spinner("Analyzing market data..."):
+            client = get_api_client()
+            response = client.predict(features)
+        
+        if response and response.is_valid:
+            # Display result
+            render_result_card(
+                prediction=response.predicted_price,
+                range_pct=0.10,
+                features=features
+            )
             
-            st.markdown("""
-            <div style="background-color: #f8fafc; padding: 20px; border-radius: 10px; 
-                        border: 1px solid #e2e8f0; margin-top: 20px;">
-                <h4 style="margin-top:0;">Why trust Lil Homey?</h4>
-                <p style="font-size: 0.95rem; color: #475569;">
-                    We don't just guess numbers. We analyze <b>neighborhood wealth indices</b> 
-                    and <b>population density</b> alongside thousands of real listings to give 
-                    you a valuation that reflects the <i>true vibe</i> of the area.
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
-            
-            # API Status indicator
-            with st.expander("🔌 API Status"):
-                if api_healthy:
-                    st.success("✅ Connected to prediction API")
-                    client = get_api_client()
-                    model_info = client.get_model_info()
-                    if model_info:
-                        st.json({
-                            "model_type": model_info.get("model_type"),
-                            "version": model_info.get("version"),
-                            "features": len(model_info.get("features", [])),
-                        })
-                else:
-                    st.warning("⚠️ API is warming up... First request may take ~30 seconds.")
+            # Footer with model version
+            render_card_footer(model_version=response.model_version)
         else:
-            # Prediction state
-            if not api_healthy:
-                st.warning("⏳ API is starting up (free tier cold start). Please wait...")
-            
-            # Call the API
-            with st.spinner("🔮 Consulting the oracle..."):
-                client = get_api_client()
-                response = client.predict(features)
-            
-            if response and response.is_valid:
-                # Display result using existing UI component
-                render_result_card(
-                    prediction=response.predicted_price,
-                    range_pct=0.10  # Will be overridden by actual confidence interval
-                )
-                
-                # Show confidence interval from model
-                st.caption(
-                    f"*Model confidence: €{response.confidence_low:,.0f} - €{response.confidence_high:,.0f}*"
-                )
-                
-                # Explanation section
-                st.markdown("#### What drove this price?")
-                st.markdown(f"""
-                This valuation is influenced by the **{features['neighborhood']}** location profile:
-                - **Wealth Factor:** {features['avg_income_index']:.2f} (Index)
-                - **Density Factor:** {features['density_val']:.2f} (Pop/km²)
-                - **Property Size:** {features['size']} m²
-                
-                *A higher wealth factor typically drives prices up, while extreme density 
-                can have variable effects.*
-                """)
-                
-                # Model version badge
-                st.markdown(
-                    f"<div style='text-align: right; color: #94a3b8; font-size: 0.75rem;'>"
-                    f"Model v{response.model_version}</div>",
-                    unsafe_allow_html=True
-                )
-            else:
-                st.error("Could not generate prediction. Please check your inputs and try again.")
+            st.error("Could not generate prediction. Please try again.")
+    else:
+        # Show footer when no prediction yet
+        render_card_footer()
 
 
 if __name__ == "__main__":
