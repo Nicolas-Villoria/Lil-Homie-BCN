@@ -127,6 +127,7 @@ def render_background_and_styles():
             color: white;
             margin-top: 0.5rem;
             color: white !important;
+            margin-top: 0.5rem;
         }}
 
         /* All paragraph elements white */
