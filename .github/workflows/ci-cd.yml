@@ -230,7 +230,6 @@ jobs:
         run: |
           python scripts/s3_storage.py sync
         continue-on-error: true  # Don't fail deploy if S3 backup fails
-          echo "Check deployment status at: https://dashboard.render.com"
           
           # If you have a Render deploy hook, uncomment and add secret:
           # curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
