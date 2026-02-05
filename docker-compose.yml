@@ -1,12 +1,4 @@
-# ==============================================================================
 # Docker Compose - Local Development
-# ==============================================================================
-# Usage:
-#   docker compose up        # Start API
-#   docker compose up -d     # Start in background
-#   docker compose down      # Stop and remove
-#   docker compose logs -f   # View logs
-# ==============================================================================
 
 services:
   api:
@@ -28,13 +20,3 @@ services:
       retries: 3
       start_period: 10s
     restart: unless-stopped
-    
-    # Resource limits (optional, for production)
-    # deploy:
-    #   resources:
-    #     limits:
-    #       cpus: '2'
-    #       memory: 2G
-    #     reservations:
-    #       cpus: '0.5'
-    #       memory: 512M

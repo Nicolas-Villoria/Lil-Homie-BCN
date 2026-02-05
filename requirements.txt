@@ -58,35 +58,4 @@ httpx>=0.26.0                      # Async HTTP client for testing
 python-dotenv==1.0.0               # Environment variable management from .env files
 tqdm>=4.66.1                       # Progress bars for long-running operations
 
-# ------------------------------------------------------------------------------
-# INTERACTIVE DEVELOPMENT (Optional)
-# ------------------------------------------------------------------------------
-# Uncomment if you want to use Jupyter notebooks for data exploration
-# jupyter>=1.0.0                   # Jupyter notebook server
-# notebook>=7.0.0                  # Classic notebook interface
-# plotly>=5.18.0                   # Interactive visualizations
-
-# ------------------------------------------------------------------------------
-# ADVANCED ML (Optional - Not Currently Used)
-# ------------------------------------------------------------------------------
-# Uncomment these if you want to experiment with additional ML models
-# xgboost>=2.0.0                   # Gradient boosting framework
-# catboost>=1.2.0                  # Gradient boosting with categorical features support
-# lightgbm>=4.0.0                  # Light Gradient Boosting Machine
-
-# ------------------------------------------------------------------------------
-# TESTING & CODE QUALITY (Optional - For Development)
-# ------------------------------------------------------------------------------
-# Uncomment if you want to add unit tests
-# pytest>=7.4.3                    # Python testing framework
-# pytest-cov>=4.1.0                # Code coverage reports
-# pytest-spark>=0.6.0              # PySpark testing utilities
-
-# ==============================================================================
-# SYSTEM REQUIREMENTS
-# ==============================================================================
-# - Java 8 or 11 (required by PySpark)
-# - MongoDB 5.0+ (running on localhost:27017)
-# - Minimum 8GB RAM (16GB recommended for larger datasets)
-# - Linux/macOS/Windows with WSL2
 # ==============================================================================
