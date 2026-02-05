@@ -1,142 +1,303 @@
-# Barcelona Rental Price Estimation System
+# Barcelona Property Price Predictor
 
-## Overview
+A production-grade machine learning system for predicting property sale prices in Barcelona. The system processes real estate data from Idealista combined with socioeconomic indicators from Open Data BCN to deliver accurate price predictions through a REST API and interactive web interface.
 
-We developed an end-to-end machine learning system to estimate property rental prices in Barcelona. The project integrates real estate listings with public socioeconomic data to provide granular valuations based on property characteristics and neighborhood context. A Streamlit-based web application serves these predictions to end-users, transforming raw model outputs into actionable business intelligence.
+**Live Demo:** [Streamlit App](https://bcn-housing-price-predictor.streamlit.app) | **API:** [Render](https://bcn-housing-price-predictor.onrender.com)
 
-## System Architecture
+---
 
-The system follows a medallion data lake architecture to ensure data quality and traceability. We use Apache Spark for distributed processing and orchestrate the pipeline with Apache Airflow.
+## Project Overview
 
-Raw data from Idealista and Open Data BCN lands in the Bronze layer as immutable Parquet files. The Silver layer cleans and standardizes this data, storing it in MongoDB to handle schema variability in property listings. The Gold layer performs feature engineering and joins, persisting the analytical dataset in Delta Lake to support ACID transactions and time travel.
+This project implements an end-to-end ML pipeline covering data engineering, model training, deployment, and monitoring. It demonstrates practical MLOps patterns suitable for production environments.
 
-Models are trained using PySpark MLlib, with experiments tracked and registered in MLflow. The best-performing model is deployed to a Model Registry, which the user-facing application queries for inference.
+### Features
 
-## Data & Feature Engineering
+- Property characteristics: size, rooms, bathrooms, property type
+- Location: neighborhood and district
+- Socioeconomic context: average income index, population density
+- Training data: 70,000+ property listings from Barcelona (2020-2023)
 
-We sourced property listings from Idealista to capture market supply, and enriched this with population density and income indices from Barcelona Open Data. This enrichment is critical as location is a primary driver of real estate value.
+---
 
-Data quality is enforced at the Silver layer. We implement deduplication strategies to handle recurring listings and normalize diverse neighborhood naming conventions using a custom lookup table.
-
-In the Gold layer, we engineer features such as price per square meter and outlier detection thresholds. We use broadcast joins to efficiently merge the high-volume listing data with smaller socioeconomic lookup tables, minimizing shuffle overhead.
-
-## Modeling Approach
-
-We trained three distinct model architectures—Linear Regression, Random Forest, and Gradient Boosted Trees—to balance interpretability with predictive power. Linear Regression provides a strong baseline, while tree-based ensembles capture non-linear interactions between location and property features.
-
-Hyperparameter tuning is automated via grid search with 3-fold cross-validation. We evaluate models primarily on RMSE to penalize large errors, which are detrimental in financial contexts. The final champion model is automatically selected and promoted to the Staging phase in the MLflow Model Registry.
-
-## Explainability & Trust
-
-Trust is essential for adoption by non-technical users. Beyond raw price predictions, we expose the drivers of valuation. The application highlights how neighborhood income levels and density impact the specific estimate for a property.
-
-Global feature importance analysis confirms that location and size are the dominant factors, aligning the model's behavior with real estate domain knowledge. This transparency helps users distinguish between algorithmic errors and genuine market anomalies.
-
-## User-Facing Application
-
-The system includes a Streamlit web application designed for real estate agents and property owners. Users input property details through a structured form and receive an estimated market value with a likely price range.
-
-The app abstracts the complexity of the underlying Spark pipeline. It uses a snapshot deployment strategy, reading from a frozen state of the data lake and model registry to ensure high availability and low latency in a cloud environment.
-
-## Engineering Trade-offs
-
-We chose a local deployment of Apache Spark for the inference engine to maintain full compatibility with the trained PySpark models. While this introduces a brief cold-start latency, it guarantees that the inference logic exactly matches the training logic without requiring complex model transpilation.
-
-MongoDB was selected for the Silver layer to accommodate the semi-structured nature of web-scraped property data. This flexibility allows us to ingest new property attributes without immediate schema migrations, decoupling data collection from downstream analysis.
-
-## Project Structure
+## Architecture
 
 ```
-Lil-Homie/
-|-- app/                              # User-facing Streamlit Application
-|   |-- components/                   # Reusable UI elements (forms, cards)
-|   |-- services/                     # Backend logic (data loading, model inference)
-|   |-- utils/                        # Helper functions (formatting)
-|   |-- main.py                       # App entry point
-|
-|-- dags/
-|   |-- bda_rental_price_pipeline_optimized.py # Parallel Airflow DAG
-|
-|-- datasets/                         # Source data files
-|
-|-- data_lake/
-|   |-- bronze/                       # Raw data (Parquet)
-|   |-- silver/                       # Cleaned data (CSV exports)
-|   |-- gold/                         # ML-ready data (Delta Lake)
-|
-|-- airflow/                          # Airflow metadata and logs
-|-- mlruns/                           # MLflow experiment tracking
-|-- reports/                          # Generated plots and metrics
-|-- logs/                             # Pipeline execution logs
-|
-|-- data_collection.py                # Bronze layer ingestion
-|-- data_formatting.py                # Silver layer processing
-|-- exploitation_zone.py              # Gold layer feature engineering
-|-- ml_training.py                    # ML pipeline (sequential)
-|-- ml_training_parallel.py           # ML pipeline (parallel)
-|-- airflow_setup.py                  # Airflow initialization
-|-- start_airflow.sh                  # Airflow startup script
-|-- requirements.txt                  # Python dependencies
+┌─────────────────────────────────────────────────────────────────────────┐
+│                           Data Sources                                  │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐          │
+│  │   Idealista     │  │  OpenData BCN   │  │  OpenData BCN   │          │
+│  │   Listings      │  │  Income Index   │  │  Density Data   │          │
+│  └────────┬────────┘  └────────┬────────┘  └────────┬────────┘          │
+└───────────┼────────────────────┼────────────────────┼───────────────────┘
+            │                    │                    │
+            ▼                    ▼                    ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         Data Lake (Medallion)                           │
+│  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐              │
+│  │   Bronze    │  ──▶ │   Silver    │  ──▶ │    Gold     │              │
+│  │  Raw JSON   │      │  Cleaned    │      │  Enriched   │              │
+│  └─────────────┘      └─────────────┘      └─────────────┘              │
+└────────────────────────────────┬────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         ML Pipeline                                     │
+│  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐              │
+│  │  Training   │  ──▶ │ Validation  │  ──▶ │  Registry   │              │
+│  │  sklearn    │      │  Metrics    │      │  Versioned  │              │
+│  └─────────────┘      └─────────────┘      └─────────────┘              │
+└────────────────────────────────┬────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         Deployment                                      │
+│  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐              │
+│  │  FastAPI    │  ◀── │   Docker    │  ◀── │  CI/CD      │              │
+│  │  (Render)   │      │  Container  │      │  GitHub     │              │
+│  └──────┬──────┘      └─────────────┘      └─────────────┘              │
+│         │                                                               │
+│         ▼                                                               │
+│  ┌─────────────┐      ┌─────────────┐                                   │
+│  │  Streamlit  │      │    S3       │                                   │
+│  │  Frontend   │      │  Artifacts  │                                   │
+│  └─────────────┘      └─────────────┘                                   │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
-## How to Run
+---
 
-### 1. Initialize the Environment
+## Repository Structure
+
+```
+├── api/                    # FastAPI REST service
+│   ├── main.py            # API endpoints
+│   ├── model_loader.py    # Model loading and inference
+│   └── schemas.py         # Pydantic request/response models
+│
+├── app/                    # Streamlit web application
+│   ├── main.py            # Entry point
+│   ├── components/        # UI components
+│   ├── services/          # API client and model services
+│   └── utils/             # Formatting utilities
+│
+├── scripts/                # ML operations
+│   ├── train_sklearn.py   # Training pipeline
+│   ├── validate_model.py  # Quality gate validation
+│   ├── model_versioning.py # Semantic versioning
+│   ├── rollback_model.py  # Production rollback
+│   ├── s3_storage.py      # Artifact backup to AWS S3
+│   └── feature_transformer.py
+│
+├── models/                 # Serialized artifacts
+│   ├── champion_model.pkl
+│   ├── feature_transformer.pkl
+│   └── model_metadata.json
+│
+├── data_lake/              # Medallion architecture
+│   ├── bronze/            # Raw ingested data
+│   ├── silver/            # Cleaned and validated
+│   └── gold/              # Feature-engineered, ML-ready
+│
+├── tests/                  # Test suite
+├── legacy/                 # Historical Spark/Airflow ETL (reference)
+│
+├── .github/workflows/      # CI/CD pipeline
+├── Dockerfile             # Container definition
+├── docker-compose.yml     # Local development
+└── render.yaml            # Cloud deployment config
+```
+
+---
+
+## Technical Stack
+
+| Layer | Technology |
+|-------|------------|
+| ML Framework | scikit-learn |
+| API | FastAPI + Uvicorn |
+| Frontend | Streamlit |
+| Containerization | Docker |
+| Cloud Hosting | Render (API), Streamlit Cloud (UI) |
+| CI/CD | GitHub Actions |
+| Artifact Storage | AWS S3 |
+| Data Processing | pandas (production), PySpark (historical ETL) |
+
+---
+
+## API Reference
+
+### Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/health` | Service health check |
+| GET | `/model/info` | Model version and metadata |
+| POST | `/predict` | Single property prediction |
+| POST | `/predict/batch` | Batch predictions |
+
+### Example Request
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+curl -X POST https://bcn-housing-price-predictor.onrender.com/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "size": 85,
+    "rooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "la Vila de Gràcia",
+    "district": "Gràcia",
+    "propertyType": "flat"
+  }'
 ```
 
-### 2. Run the Data Pipeline
+### Response
 
-You can run the full pipeline manually:
-
-```bash
-# Ensure MongoDB is running locally
-python3 data_collection.py --collectors all
-python3 data_formatting.py
-python3 exploitation_zone.py
-python3 ml_training.py
+```json
+{
+  "predicted_price": 425000.00,
+  "model_version": "1.0.0",
+  "prediction_id": "abc123"
+}
 ```
 
-### 3. Launch the Application
+---
+
+## Local Development
+
+### Prerequisites
+
+- Python 3.11+
+- Docker (optional)
+
+### Setup
 
 ```bash
+git clone https://github.com/yourusername/barcelona-property-predictor.git
+cd barcelona-property-predictor
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements-api.txt
+```
+
+### Run API
+
+```bash
+# Direct
+uvicorn api.main:app --reload --port 8000
+
+# Docker
+docker compose up
+```
+
+### Run Streamlit
+
+```bash
+pip install -r requirements-streamlit.txt
 streamlit run app/main.py
 ```
 
-## Detailed Setup & Prerequisites
+---
 
-### Windows Users
-Apache Airflow and PySpark require POSIX features. Windows users **MUST** use WSL2 (Windows Subsystem for Linux).
-1. Install WSL2: `wsl --install`
-2. Run all commands inside the Ubuntu terminal.
+## MLOps Workflow
 
-### System Requirements
-*   **Python 3.9+**
-*   **Java 8 or 11** (Required by Spark)
-*   **MongoDB 5.0+** (Running on localhost:27017)
+### Training
 
-### Airflow Setup (Optional)
-This project includes an Airflow DAG (`bda_rental_price_pipeline_optimized.py`) that parallelizes data collection and training.
+```bash
+python scripts/train_sklearn.py
+```
 
-1.  **Initialize Airflow DB:**
-    ```bash
-    python airflow_setup.py
-    ```
-2.  **Start Airflow:**
-    ```bash
-    chmod +x start_airflow.sh
-    ./start_airflow.sh
-    ```
-3.  Access UI at `http://localhost:8080`.
+Outputs:
+- Trained model with hyperparameter tuning
+- Validation metrics and visualizations
+- Versioned artifacts in `models/`
+
+### Validation
+
+```bash
+python scripts/validate_model.py
+```
+
+Enforces quality gates:
+- R² ≥ 0.70
+- RMSE ≤ €150,000
+
+### Versioning
+
+```bash
+python scripts/model_versioning.py info
+python scripts/model_versioning.py bump minor
+python scripts/model_versioning.py deploy --env production
+```
+
+### Rollback
+
+```bash
+python scripts/rollback_model.py list
+python scripts/rollback_model.py rollback 1.0.0
+```
+
+### S3 Backup
+
+```bash
+python scripts/s3_storage.py upload
+python scripts/s3_storage.py download --version 1.0.0
+```
+
+---
+
+## CI/CD Pipeline
+
+The GitHub Actions workflow executes on every push to `main`:
+
+1. **Lint**: Code quality checks with Ruff and Black
+2. **Test**: Unit tests with pytest
+3. **Validate**: Model quality gate enforcement
+4. **Build**: Docker image construction and verification
+5. **Deploy**: Automatic deployment to Render
+6. **Backup**: Artifact upload to S3
+
+Pull requests trigger stages 1-3 for validation without deployment.
+
+---
+
+## Data Sources
+
+| Source | Description | Update Frequency |
+|--------|-------------|------------------|
+| Idealista | Property listings with prices, sizes, features | Historical dataset |
+| Open Data BCN | Household income index by neighborhood | Annual |
+| Open Data BCN | Population density by neighborhood | Annual |
+
+Data is joined on neighborhood identifiers using lookup tables that map between data source schemas.
+
+---
+
+## Model Performance
+
+The Random Forest model was selected after comparative evaluation against Ridge Regression and Gradient Boosting. Cross-validation with 5 folds was used for hyperparameter tuning.
+
+| Model | R² | RMSE |
+|-------|-----|------|
+| Random Forest | 0.906 | €116,745 |
+| Gradient Boosting | 0.891 | €124,320 |
+| Ridge Regression | 0.712 | €198,450 |
+
+Feature importance analysis shows property size and neighborhood as the strongest predictors, followed by income index and number of rooms.
+
+---
 
 ## Future Improvements
 
-We plan to decouple the inference service from the Streamlit frontend by exposing the model via a REST API (FastAPI). This would allow independent scaling of the user interface and the compute-heavy prediction engine. Additionally, integrating a CI/CD pipeline would automate the testing of data transformations and model integrity upon new commits.
+- SHAP explainability for individual predictions
+- Automated data refresh pipeline with Idealista API integration
+- Data drift detection and alerting
+- A/B testing infrastructure for model comparison
+- Prediction monitoring dashboard
 
-## Authors
-- Nicolás Villoria Alonso
-- Pablo Fernández Aulet
+---
+
+## License
+
+MIT License

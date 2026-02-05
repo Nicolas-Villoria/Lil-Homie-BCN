@@ -1,5 +1,0 @@
-mlflow==3.8.1
-jaraco-collections==5.1.0
-numpy==2.4.1
-pyspark==3.5.0
-scipy==1.17.0
